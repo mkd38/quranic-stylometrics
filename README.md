@@ -8,6 +8,10 @@ The Noble Quran is the central religious text of Islam and is believed by Muslim
 ## Project Proposal 
 In addition to its status as a holy text, the Quran was also revered for its beautiful prose and poetry. For this project, I am interested in examining the Quran and its interpretations primarily as pieces of literature. I propose to conduct a stylometric analysis of certain selected verses from the Quran in its original Arabic and one or more English interpretations (NB: there are several) in order to compare how stylistic and rhetorical devices present in the original text are interpreted in English translations, with the goal of gaining a better understanding of what is lost in translation. 
 
+<<<<<<< HEAD
 The Quran is structured into chapters and verses, which easily lends itself to XML schemas. I will then use markup to capture rhetorical devices at play in the texts. I intend to focus on the devices of simile and metaphor, consonance and contrast, and epanalepsis, which have come to be considered the primary devices of the art of Arabic rhetoric in large part because they are featured so heavily within the text of the Quran.
 
 TEST!!!!
+=======
+The Quran is structured into chapters and verses, which easily lends itself to XML schemas. I will then use markup to capture rhetorical devices at play in the texts. I intend to focus on the devices of simile and metaphor, consonance and contrast, and epanalepsis, which have come to be considered the primary devices of the art of Arabic rhetoric in large part because they are featured so heavily within the text of the Quran.
+>>>>>>> d87cf7328ed2793b4a09802d6ca0f1229e08b7a6
