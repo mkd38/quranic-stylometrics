@@ -13,3 +13,6 @@ The Quran is structured into chapters and verses, which easily lends itself to X
 
 
 The Quran is structured into chapters and verses, which easily lends itself to XML schemas. I will then use markup to capture rhetorical devices at play in the texts. I intend to focus on the devices of simile and metaphor, consonance and contrast, and epanalepsis, which have come to be considered the primary devices of the art of Arabic rhetoric in large part because they are featured so heavily within the text of the Quran.
+
+## Sources
+ https://github.com/ceefour/qurandatabase
