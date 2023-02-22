@@ -11,7 +11,7 @@
 - *17: Al-Isra, The Night Journey*
 
 ### Markup Strategy:
-- **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` 
+- **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` , `<body>` (body contains all verses)
 - **Analytical:** `<comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`, `<phatic-utterance>`
 
 ### Other Thoughts:
