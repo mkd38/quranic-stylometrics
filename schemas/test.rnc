@@ -1,0 +1,15 @@
+start = surah
+surah = element surah {metadata, body}
+metadata = element metadata {title, editor, translator?, source}
+#where do we find the editor and the source?
+title = element title {text}
+editor = element editor {text}
+translator = element translator {text}
+source = element source {text}
+#Will source be a hyperlink to the perseus?
+body = element body {mixed {ayah+ & device}}
+ayah = element ayah { attribute num {xs:integer}}
+device = element device { attribute technique {"repetition" | "simile" | "metaphor" | "irony" | "rhetoricalQuestion" | "parallelism" | "anaphora" | "allusion" | "contrast" | "imagery"}, text+
+
+
+
