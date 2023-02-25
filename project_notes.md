@@ -1,12 +1,18 @@
 # Quran Project Notes
 
+### Research Questions: 
+- What are the most common rhetorical devices used in the Arabic original text and the Ali English and Pickthall English translations? 
+- How do their frequencies and distributions compare across the different versions of the text?
+- What is the density of rehtorical devices within each ayah/surah?
+- How does english translations express phatic utterances that are prevalent in the Quran?
+
 ### Surahs for Markup:
 - *13: Ar-Ra'd, The Thunder*
 - *17: Al-Isra, The Night Journey*
 
 ### Markup Strategy:
-- **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` 
-- **Analytical:** `<comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`
+- **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` , `<body>` (body contains all verses)
+- **Analytical:** `<comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`, `<phatic-utterance>`
 
 ### Other Thoughts:
 There are sometimes multiple sentences in one verse in the English translations when in the original Arabic, each verse only consists of one sentence. Should we pay attention to this?
@@ -33,6 +39,8 @@ Arabic poetic/lyrical tone gets lost in translation, should we tag these ecphone
 **Irony:** *"Give good news of a painful punishment to hypocrites,"*
 
 **Rhetorical Question:** *"Is there any reward for goodness except goodness?"*
+
+**Phatic Utterance:** *"Lo!"*
 
 ### Check out: https://qurandev.github.io/widgets/literarydevices.html for more examples!
 
