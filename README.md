@@ -11,9 +11,33 @@ In addition to its status as a holy text, the Quran was also revered for its bea
 
 The Quran is structured into chapters and verses, which easily lends itself to XML schemas. I will then use markup to capture rhetorical devices at play in the texts. I intend to focus on the devices of simile and metaphor, consonance and contrast, and epanalepsis, which have come to be considered the primary devices of the art of Arabic rhetoric in large part because they are featured so heavily within the text of the Quran.
 
+#### Research Questions Defined
 
-The Quran is structured into chapters and verses, which easily lends itself to XML schemas. I will then use markup to capture rhetorical devices at play in the texts. I intend to focus on the devices of simile and metaphor, consonance and contrast, and epanalepsis, which have come to be considered the primary devices of the art of Arabic rhetoric in large part because they are featured so heavily within the text of the Quran.
+- What are the most common rhetorical devices used in the Arabic original text and the 
+two English translations by Ali and Pickthall? How do the frequencies and distributions
+of devices compare across the three texts?
+
+A common debate in the field of translation is the struggle to balance the competing demands of style 
+and faithfulness to the original text. We are interested in pinpointing the editorial choices made 
+by each translator, and if there are differences in each translator's approach to the text (i.e., do one
+or both translators err on the side of faithfulness to the text at the expense of style, or vice verse?) 
+
+- What is the density of rehtorical devices within each unit of text?
+
+English and Arabic are very disparate languages both in terms of syntactic structure and rhetorical stylings. 
+Recitative poetry was a key part of Arab art and culture long before the revalation of the Qur'an, and the 
+rhetorical stylings of the Qur'an, originally a text that was recited orally, continue that vibrant tradition.
+We are interested in examining whether there is a significant difference in the rhetorical richness among
+the three texts, as operationalized by density of devices per ayah and per surah. 
+
+- How do English translations compensate for rhetorical elements that are available in Arabic but do not exist
+in English?
+
+One striking feature of the Arabic language is the use of the vocative particles to signify direct address and
+emphatic particles to indicate topic or focus. There is no direct analog to these tools in modern English, 
+so would like to examine if and how the English texts compensate for any loss of sentiment due to the lack of 
+those particles. 
+
 
 ## Sources
- https://github.com/ceefour/qurandatabase
- test
+http://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acollection%3AArabic
