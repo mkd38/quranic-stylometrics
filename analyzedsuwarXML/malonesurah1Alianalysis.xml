@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="englishschema.rnc" type="application/relax-ng-compact-syntax"?>
+<surah>
+    <metadata>
+        <title>Surah 1 The Opening Al-Fatihah</title>
+        <editor/>
+        <translator>Abdullah Yusuf Ali</translator>
+        <source/>
+    </metadata>
+    <body>
+        <ayah n="1"> In the name of Allah, <device type="parallelism"><device type="praise">Most Gracious, Most
+                Merciful.</device></device></ayah>
+        <ayah n="2">
+            <device type="praise">Praise be to Allah, the Cherisher and Sustainer of the
+            worlds;</device></ayah>
+        <ayah n="3">
+            <device type="parallelism"><device type="praise">Most Gracious, Most Merciful;</device></device>
+        </ayah>
+        <ayah n="4">
+            <device type="praise">Master of the Day of Judgment.</device>
+        </ayah>
+        <ayah n="5"> Thee do we worship, and Thine aid we seek.</ayah>
+        <ayah n="6"> Show us the straight way,</ayah>
+        <ayah n="7">
+            <device type="contrast">The way of those on whom Thou hast bestowed Thy Grace, those
+                whose (portion) is not wrath, and who go not astray.</device>
+        </ayah>
+    </body>
+</surah>
