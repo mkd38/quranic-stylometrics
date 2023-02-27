@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="englishschema.rnc" type="application/relax-ng-compact-syntax"?>
+<surah>
+    <metadata>
+        <title>Surah 17 The Night Journey Al-Isrā</title>
+        <editor/>
+        <translator>Abdullah Yusuf Ali</translator>
+        <source/>
+    </metadata>
+    <body>
+        <ayah n="1">
+            <device type="praise">Glory to (Allah)</device> Who did take His servant for a Journey
+            by night from the Sacred Mosque to the farthest Mosque, whose precincts We did bless,-
+            in order that We might show him some of Our Signs: for He is the One Who heareth and
+            seeth (all things).</ayah>
+        <ayah n="2">
+            <device type="allusion">We gave Moses the Book, and made it a Guide to the Children of
+                Israel, (commanding): "Take not other than Me as Disposer of (your)
+                affairs."</device></ayah>
+        <ayah n="3">
+            <device type="allusion">O ye that are sprung from those whom We carried (in the Ark)
+                with Noah! Verily he was a devotee most grateful.</device></ayah>
+        <ayah n="4"> And We gave (Clear) Warning to the Children of Israel in the Book, that <device
+                type="anaphora">twice would they</device> do mischief on the earth and be elated
+            with mighty arrogance (and <device type="anaphora">twice would they</device> be
+            punished)!</ayah>
+        <ayah n="5"> When the first of the warnings came to pass, We sent against you Our servants
+            given to terrible warfare: They entered the very inmost parts of your homes; and it was
+            a warning (completely) fulfilled.</ayah>
+        <ayah n="6"> Then did We grant you the Return as against them: <device type="parallelism">We
+                gave you increase in resources and sons, and made you the more nerous in
+                man-power.</device></ayah>
+        <ayah n="7"> If <device type="anaphora">ye did</device> well, <device type="anaphora">ye
+                did</device> well for yourselves; if <device type="anaphora">ye did</device> evil,
+                (<device type="anaphora">ye did</device> it) against yourselves. So when the second
+            of the warnings came to pass, (We permitted your enemies) <device type="metaphor">to
+                disfigure your faces</device>, and to <device type="allusion">enter your Temple as
+                they had entered it before</device>, and to visit with destruction all that fell
+            into their power.</ayah>
+        <ayah n="8"> It may be that your Lord may (yet) show Mercy unto you; <device
+                type="parallelism">but if ye revert (to your sins), We shall revert (to Our
+                punishments):</device> And <device type="irony">we have made Hell a prison</device>
+            for those who reject (all Faith).</ayah>
+        <ayah n="9"> Verily this Qur'an doth guide to that which is most right (or stable), and
+            giveth the Glad Tidings to the Believers who work deeds of righteousness, that they
+            shall have a magnificent reward;</ayah>
+        <ayah n="10"> And to those who believe not in the Hereafter, (it announceth) that We have
+            prepared for them a Penalty Grievous (indeed).</ayah>
+        <ayah n="11">
+            <device type="irony">The prayer that man should make for good, he maketh for
+                evil;</device> for man is given to hasty (deeds).</ayah>
+        <ayah n="12"> We have made the Night and the Day as two (of Our) Signs: <device
+                type="parallelism">the Sign of the Night have We obscured, while the Sign of the Day
+                We have made to enlighten you;</device>
+            <device type="anaphora">that ye may</device> seek bounty from your Lord, and <device
+                type="anaphora">that ye may</device> know the nber and count of the years: all
+            things have We explained in detail.</ayah>
+        <ayah n="13">
+            <device type="metaphor">Every man's fate We have fastened on his own neck:</device> On
+            the Day of Judgment We shall bring out for him a scroll, which he will see spread
+            open.</ayah>
+        <ayah n="14"> (It will be said to him:) "Read thine (own) record: Sufficient is thy soul
+            this day to make out an account against thee."</ayah>
+        <ayah n="15">
+            <device type="parallelism">Who receiveth guidance, receiveth it for his own
+                benefit</device>: who goeth astray doth so to his own loss: No bearer of burdens can
+            bear the burden of another: nor would We visit with Our Wrath until We had sent an
+            messenger (to give warning).</ayah>
+        <ayah n="16"> When We decide to destroy a population, We (first) send a definite order to
+            those among them who are given the good things of this life and yet transgress; so that
+            the word is proved true against them: then (it is) We destroy them utterly.</ayah>
+        <ayah n="17">
+            <device type="rhetoricalQuestion">How many generations have We destroyed after
+                Noah?</device> and enough is thy Lord to note and see the sins of His
+            servants.</ayah>
+        <ayah n="18">
+            <device type="irony">If any do wish for the transitory things (of this life), We readily
+                grant them - <device type="parallelism">such things as We will, to such person as We
+                    will</device>: in the end have We provided Hell for them: they will burn
+                therein, disgraced and rejected.</device></ayah>
+        <ayah n="19"> Those who do wish for the (things of) the Hereafter, and strive therefor with
+            all due striving, and have Faith,- they are the ones whose striving is acceptable (to
+            Allah).</ayah>
+        <ayah n="20"> Of the bounties of thy Lord We bestow freely on all- These as well as those:
+            The bounties of thy Lord are not closed (to anyone).</ayah>
+        <ayah n="21">
+            <device type="contrast">See how We have bestowed more on some than on others</device>;
+            but verily the Hereafter is more in rank and gradation and more in excellence.</ayah>
+        <ayah n="22"> Take not with Allah another object of worship; or thou (O man!) wilt sit in
+            disgrace and destitution.</ayah>
+        <ayah n="23"> Thy Lord hath decreed that ye worship none but Him, and that ye be kind to
+            parents. Whether one or both of them attain old age in thy life, <device
+                type="parallelism">say not to them a word of contempt, nor repel them, but address
+                them in terms of honour.</device></ayah>
+        <ayah n="24"> And, out of kindness, <device type="metaphor">lower to them the wing of
+                humility</device>, and say: "My Lord! bestow on them thy Mercy even as they
+            cherished me in childhood."</ayah>
+        <ayah n="25"> Your Lord knoweth best what is in your hearts: If ye do deeds of
+            righteousness, verily He is Most Forgiving to those who turn to Him again and again (in
+            true penitence).</ayah>
+        <ayah n="26"> And render to the kindred their due rights, as (also) to those in want, and to
+            the wayfarer: But squander not (your wealth) in the manner of a spendthrift.</ayah>
+        <ayah n="27">
+            <device type="parallelism">Verily spendthrifts are brothers of the Evil Ones; and the
+                Evil One is to his Lord (himself) ungrateful.</device></ayah>
+        <ayah n="28"> And even if thou hast to turn away from them in pursuit of the Mercy from thy
+            Lord which thou dost expect, yet speak to them a word of easy kindness.</ayah>
+        <ayah n="29">
+            <device type="simile">Make not thy hand tied (like a niggard's) to thy neck, nor stretch
+                it forth to its utmost reach, so that thou become blameworthy and
+                destitute.</device></ayah>
+        <ayah n="30"> Verily thy Lord doth provide sustenance in abundance for whom He pleaseth, and
+            He provideth in a just measure. For He doth know and regard all His servants.</ayah>
+        <ayah n="31"> Kill not your children for fear of want: We shall provide sustenance for them
+            as well as for you. Verily the killing of them is a great sin.</ayah>
+        <ayah n="32"> Nor come nigh to adultery: for it is a shameful (deed) and an evil, opening
+            the road (to other evils).</ayah>
+        <ayah n="33"> Nor take life - which Allah has made sacred - except for just cause. And if
+            anyone is slain wrongfully, we have given his heir authority (to demand qisas or to
+            forgive): but let him not exceed bounds in the matter of taking life; for he is helped
+            (by the Law).</ayah>
+        <ayah n="34"> Come not nigh to the orphan's property except to improve it, until he attains
+            the age of full strength; and fulfil (every) engagement, for (every) engagement will be
+            enquired into (on the Day of Reckoning).</ayah>
+        <ayah n="35"> Give full measure when ye measure, and weigh with a balance that is straight:
+            that is the most fitting and the most advantageous in the final determination.</ayah>
+        <ayah n="36">
+            <device type="imagery">And pursue not that of which thou hast no knowledge; for every
+                act of hearing, or of seeing or of (feeling in) the heart will be enquired into (on
+                the Day of Reckoning).</device></ayah>
+        <ayah n="37"> Nor walk on the earth with insolence: for thou canst not rend the earth
+            asunder, nor reach the mountains in height.</ayah>
+        <ayah n="38"> Of all such things the evil is hateful in the sight of thy Lord.</ayah>
+        <ayah n="39"> These are among the (precepts of) wisdom, which thy Lord has revealed to thee.
+            Take not, with Allah, another object of worship, <device type="imagery">lest thou
+                shouldst be thrown into Hell,</device> blameworthy and rejected.</ayah>
+        <ayah n="40">
+            <device type="rhetoricalQuestion">Has then your Lord (O Pagans!) preferred for you sons,
+                and taken for Himself daughters among the angels?</device> Truly ye utter a most
+            dreadful saying!</ayah>
+        <ayah n="41">
+            <device type="irony">We have explained (things) in various (ways) in this Qur'an, in
+                order that they may receive admonition, but it only increases their flight (from the
+                Truth)!</device></ayah>
+        <ayah n="42"> Say: If there had been (other) gods with Him, as they say,- behold, they would
+            certainly have sought out a way to the Lord of the Throne!</ayah>
+        <ayah n="43">
+            <device type="praise">Glory to Him! He is high above all that they say!- Exalted and
+                Great (beyond measure)!</device></ayah>
+        <ayah n="44">
+            <device type="imagery">The seven heavens and the earth, and all beings therein, declare
+                His glory:</device> there is not a thing but celebrates His praise; And yet ye
+            understand not how they declare His glory! Verily He is Oft-Forbear, Most
+            Forgiving!</ayah>
+        <ayah n="45"><device type="imagery">When thou dost recite the Qur'an, We put, between thee
+                and those who believe not in the Hereafter, a veil invisible:</device></ayah>
+        <ayah n="46"> And We put coverings over their hearts (and minds) lest they should understand
+            the Qur'an, and deafness into their ears: when thou dost commemorate thy Lord and Him
+            alone in the Qur'an, <device type="imagery">they turn on their backs, fleeing (from the
+                Truth).</device></ayah>
+        <ayah n="47"> We know best why it is they listen, when they listen to thee; and when they
+            meet in private conference, behold, the wicked say, "Ye follow none other than a man
+            bewitched!"</ayah>
+        <ayah n="48"> See what similes they strike for thee: but they have gone astray, and never
+            can they find a way.</ayah>
+        <ayah n="49"> They say: <device type="rhetoricalQuestion">What! when we are <device
+                    type="metaphor">reduced to bones and dust,</device> should we really be raised
+                up (to be) a new creation?"</device></ayah>
+        <ayah n="50"> Say: "(Nay!) be ye stones or iron,</ayah>
+        <ayah n="51"> "Or created matter which, in your minds, is hardest (to be raised up),- (Yet
+            shall ye be raised up)!" then will they say: <device type="rhetoricalQuestion">"Who will
+                cause us to return?"</device> Say: "He who created you first!" Then will they wag
+            their heads towards thee, and say,<device type="rhetoricalQuestion">"When will that
+                be?"</device> Say, "May be it will be quite soon!</ayah>
+        <ayah n="52">
+            <device type="imagery">It will be on a Day when He will call you, and ye will answer
+                (His call) with (words of) His praise, and ye will think that ye tarried but a
+                little while!"</device></ayah>
+        <ayah n="53"> Say to My servants that they should (only) say those things that are best:
+                <device type="anaphora">for Satan</device> doth sow dissensions among them: <device
+                type="anaphora"><device type="allusion">For Satan</device> is to man an avowed
+                enemy.</device></ayah>
+        <ayah n="54"> It is your Lord that knoweth you best: <device type="contrast"><device
+                    type="anaphora">If He please</device>, He granteth you mercy, or <device
+                    type="anaphora">if He please</device>, punishment:</device> We have not sent
+            thee to be a disposer of their affairs for them.</ayah>
+        <ayah n="55"> And it is your Lord that knoweth best all beings that are in the heavens and
+            on earth: We did bestow on some prophets more (and other) gifts than on others: <device
+                type="allusion">and We gave to David (the gift of) the Psalms.</device></ayah>
+        <ayah n="56"> Say: "Call on those - besides Him - whom ye fancy: they have neither the power
+            to remove your troubles from you nor to change them."</ayah>
+        <ayah n="57"> Those whom they call upon do desire (for themselves) means of access to their
+            Lord, - even those who are nearest: <device type="contrast">they hope for His Mercy and
+                fear His Wrath:</device> for the Wrath of thy Lord is something to take heed
+            of.</ayah>
+        <ayah n="58"> There is not a population but We shall destroy it before the Day of Judgment
+            or punish it with a dreadful Penalty: that is written in the (eternal) Record.</ayah>
+        <ayah n="59"> And We refrain from sending the signs, only because the men of former
+            generations treated them as false: We sent the she-camel to the Thamud to open their
+            eyes, but they treated her wrongfully: <device type="metaphor">We only send the Signs by
+                way of terror</device> (and warning from evil).</ayah>
+        <ayah n="60"> Behold! We told thee that thy Lord doth encompass mankind round about: We
+            granted the vision which We showed thee, but as a trial for men,- as also the Cursed
+            Tree (mentioned) in the Qur'an: We put terror (and warning) into them, but it only
+            increases their inordinate transgression!</ayah>
+        <ayah n="61">
+            <device type="imagery">Behold! We said to the angels: "Bow down unto <device
+                    type="allusion">Adam</device>": They bowed down except Iblis:</device> He said,
+                <device type="rhetoricalQuestion">"Shall I bow down to one whom Thou didst create
+                from clay?"</device></ayah>
+        <ayah n="62"> He said: "Seest Thou? this is the one whom Thou hast honoured above me! If
+            Thou wilt but respite me to the Day of Judgment, I will surely bring his descendants
+            under my sway - all but a few!"</ayah>
+        <ayah n="63"> (Allah) said: "Go thy way; if any of them follow thee, verily Hell will be the
+            recompense of you (all)- an ample recompense.</ayah>
+        <ayah n="64"> "Lead to destruction those whom thou canst among them, <device type="metaphor"
+                >with thy (seductive) voice; make assaults on them with thy cavalry and thy
+                infantry;</device> mutually share with them wealth and children; and make promises
+            to them." But Satan promises them nothing but deceit.</ayah>
+        <ayah n="65"> "As for My servants, no authority shalt thou have over them:" Enough is thy
+            Lord for a Disposer of affairs.</ayah>
+        <ayah n="66"> Your Lord is He That maketh the <device type="metaphor">Ship</device> go
+            smoothly for you through the sea, in order that ye may seek of his Bounty. For he is
+            unto you most Merciful.</ayah>
+        <ayah n="67">
+            <device type="irony">When distress seizes you at sea, those that ye call upon - besides
+                Himself - leave you in the lurch! but when He brings you back safe to land, ye turn
+                away (from Him).</device> Most ungrateful is man!</ayah>
+        <ayah n="68">
+            <device type="rhetoricalQuestion">Do ye then feel secure that He will not cause you to
+                be swallowed up beneath the earth when ye are on land, or that He will not send
+                against you a <device type="imagery">violent tornado (with showers of
+                    stones)</device> so that ye shall find no one to carry out your affairs for
+                you?</device></ayah>
+        <ayah n="69">
+            <device type="rhetoricalQuestion">Or do ye feel secure</device> that He will not send
+            you back a second time to sea and send against you a heavy gale to drown you because of
+            your ingratitude, so that ye find no helper. Therein against Us?</ayah>
+        <ayah n="70"> We have honoured the sons of <device type="allusion">Adam</device>; provided
+            them with transport on land and sea; given them for sustenance things good and pure; and
+            conferred on them special favours, above a great part of our creation.</ayah>
+        <ayah n="71"> One day We shall call together all human beings with their (respective) Imams:
+            those who are given their record in their right hand will read it (with pleasure), and
+            they will not be dealt with unjustly in the least.</ayah>
+        <ayah n="72">
+            <device type="parallelism">But those who were <device type="metaphor">blind</device> in
+                this world, will be <device type="metaphor">blind</device> in the
+                hereafter,</device> and most astray from the Path.</ayah>
+        <ayah n="73"> And their purpose was to tempt thee away from that which We had revealed unto
+            thee, to substitute in our name something quite different; (in that case), behold! they
+            would certainly have made thee (their) friend!</ayah>
+        <ayah n="74"> And had We not given thee strength, thou wouldst nearly have inclined to them
+            a little.</ayah>
+        <ayah n="75"> In that case We should have made thee taste <device type="anaphora">an equal
+                portion</device> (of punishment) in this life, and <device type="anaphora">an equal
+                portion</device> in death: and moreover thou wouldst have found none to help thee
+            against Us!</ayah>
+        <ayah n="76"> Their purpose was to scare thee off the land, in order to expel thee; but in
+            that case they would not have stayed (therein) after thee, except for a little
+            while.</ayah>
+        <ayah n="77"> (This was Our) way with the messengers We sent before thee: thou wilt find no
+            change in Our ways.</ayah>
+        <ayah n="78"> Establish regular prayers - at the sun's decline till the darkness of the
+            night, and the morning prayer and reading: for the prayer and reading in the morning
+            carry their testimony.</ayah>
+        <ayah n="79"> And pray in the small watches of the morning: (it would be) an additional
+            prayer (or spiritual profit) for thee: soon will thy Lord raise thee to a Station of
+            Praise and Glory!</ayah>
+        <ayah n="80">
+            <device type="parallelism">Say: "O my Lord! Let my entry be by the Gate of Truth and
+                Honour, and likewise my exit by the Gate of Truth and Honour; and grant me from Thy
+                Presence an authority to aid (me)."</device></ayah>
+        <ayah n="81">
+            <device type="contrast">And say: "Truth has (now) arrived, and Falsehood perished: for
+                Falsehood is (by its nature) bound to perish."</device></ayah>
+        <ayah n="82">
+            <device type="contrast">We send down (stage by stage) in <device type="metaphor">the
+                    Qur'an that which is a healing and a mercy to those who believe:</device> to the
+                unjust it causes nothing but <device type="repetition">loss after
+                loss</device>.</device></ayah>
+        <ayah n="83">
+            <device type="contrast">Yet when We bestow Our favours on man, he turns away and becomes
+                remote on his side (instead of coming to Us)</device>, and when evil seizes him he
+            gives himself up to despair!</ayah>
+        <ayah n="84"> Say: "Everyone acts according to his own disposition: But your Lord knows best
+            who it is that is best guided on the Way."</ayah>
+        <ayah n="85"> They ask thee concerning the Spirit (of inspiration). Say: "The Spirit
+            (cometh) by command of my Lord: of knowledge it is only a little that is communicated to
+            you, (O men!)"</ayah>
+        <ayah n="86"> If it were Our Will, We could take away that which We have sent thee by
+            inspiration:then wouldst thou find none to plead thy affair in that matter as against
+            Us,-</ayah>
+        <ayah n="87"> Except for Mercy from thy Lord: for his bounty is to thee (indeed)
+            great.</ayah>
+        <ayah n="88"> Say: "If the whole of mankind and Jinns were to gather together to produce the
+            like of this Qur'an, they could not produce the like thereof, even if they backed up
+            each other with help and support.</ayah>
+        <ayah n="89">
+            <device type="irony">And We have explained to man, in this Qur'an, every kind of
+                similitude: yet the greater part of men refuse (to receive it) except with
+                ingratitude!</device></ayah>
+        <ayah n="90"> They say: <device type="imagery">We shall not believe in thee, until thou
+                cause a spring to gush forth for us from the earth,</device></ayah>
+        <ayah n="91">
+            <device type="imagery">Or (until) thou have a garden of date trees and vines, and cause
+                rivers to gush forth in their midst, carrying abundant water;</device></ayah>
+        <ayah n="92"> "Or thou cause the sky to fall in pieces, as thou sayest (will happen),
+            against us; or thou bring Allah and the angels before (us) face to face:</ayah>
+        <ayah n="93"> "Or thou have a house adorned with gold, or thou mount a ladder right into the
+            skies. No, we shall not even believe in thy mounting until thou send down to us a book
+            that we could read." Say: <device type="rhetoricalQuestion">"Glory to my Lord! Am I
+                aught but a man,- a messenger?"</device></ayah>
+        <ayah n="94"> What kept men back from belief when Guidance came to them, was nothing but
+            this: they said, "Has Allah sent a man (like us) to be (His) Messenger?"</ayah>
+        <ayah n="95"> Say, "If there were settled, on earth, angels walking about in peace and
+            quiet, We should certainly have sent them down from the heavens an angel for a
+            messenger."</ayah>
+        <ayah n="96"> Say: "Enough is Allah for a witness between me and you: for He is well
+            acquainted with His servants, and He sees (all things).</ayah>
+        <ayah n="97"> It is he whom Allah guides, that is on true Guidance; but he whom He leaves
+            astray - for such wilt thou find no protector besides Him. On the Day of Judgment
+                <device type="imagery">We shall gather, them together, prone on their faces, blind,
+                dumb, and deaf</device>: their abode will be Hell: every time it shows abatement, We
+            shall increase from them the fierceness of the Fire.</ayah>
+        <ayah n="98"> That is their recompense, because they rejected Our signs, and said, <device
+                type="rhetoricalQuestion">When we are <device type="metaphor">reduced to bones and
+                    broken dust</device>, should we really be raised up (to be) a new
+                Creation?"</device></ayah>
+        <ayah n="99">
+            <device type="contrast">See they not that Allah, Who created the heavens and the earth,
+                has power to create the like of them (anew)?</device> Only He has decreed a term
+            appointed, of which there is no doubt. But the unjust refuse (to receive it) except with
+            ingratitude.</ayah>
+        <ayah n="100">
+            <device type="irony">Say: "If ye had control of the Treasures of the Mercy of my Lord,
+                behold, ye would keep them back, for fear of spending them: for man is (every)
+                niggardly!"</device></ayah>
+        <ayah n="101"> To Moses We did give Nine Clear Signs: As the Children of Israel: when he
+            came to them, Pharaoh said to him: "O Moses! I consider thee, indeed, to have been
+            worked upon by sorcery!</ayah>
+        <ayah n="102"> Moses said, "Thou knowest well that these things have been sent down by none
+            but the Lord of the heavens and the earth as eye-opening evidence: and I consider thee
+            indeed, O Pharaoh, to be one doomed to destruction!"</ayah>
+        <ayah n="103">
+            <device type="irony"> So he resolved to remove them from the face of the earth: but We
+                did drown him and all who were with him.</device></ayah>
+        <ayah n="104"> And We said thereafter to the Children of Israel, "Dwell securely in the land
+            (of promise)": but when the second of the warnings came to pass, We gathered you
+            together in a mingled crowd.</ayah>
+        <ayah n="105"> We sent down the (Qur'an) <device type="repetition">in Truth</device>, and
+                <device type="repetition">in Truth</device> has it descended: and We sent thee but
+                <device type="parallelism">to give Glad Tidings and to warn
+            (sinners).</device></ayah>
+        <ayah n="106">
+            <device type="parallelism">(It is) a Qur'an which We have divided (into parts from time
+                to time), in order that thou mightest recite it to men at intervals: We have
+                revealed it by stages.</device></ayah>
+        <ayah n="107"> Say: "Whether ye believe in it or not, it is true that those who were given
+            knowledge beforehand, when it is recited to them, fall down on their faces in humble
+            prostration,</ayah>
+        <ayah n="108"> "And they say: 'Glory to our Lord! Truly has the promise of our Lord been
+            fulfilled!'"</ayah>
+        <ayah n="109"> They fall down on their faces in tears, and it increases their (earnest)
+            humility.</ayah>
+        <ayah n="110"> Say: "<device type="repetition">Call</device> upon Allah, or <device
+                type="repetition">call</device> upon Rahman: by whatever name ye <device
+                type="repetition">call</device> upon Him, (it is well): for to Him belong the Most
+            Beautiful Names. Neither speak thy Prayer aloud, nor speak it in a low tone, but seek a
+            middle course between."</ayah>
+        <ayah n="111"> Say: <device type="praise">Praise be to Allah, who begets no son, and has no
+                partner in (His) dominion: Nor (needs) He any to protect Him from humiliation: yea,
+                magnify Him for His greatness and glory!"</device></ayah>
+    </body>
+</surah>
