@@ -9,9 +9,4 @@ body = element body { ayah+ }
 ayah = element ayah {n, mixed{device*}}
 n = attribute n {text}
 device = element device {type, text, mixed{device*}}
-type = attribute type {"praise"|"personification"|"repetition" | "simile" | "metaphor" | "irony" | "rhetoricalQuestion" | "parallelism" | "anaphora" | "allusion" | "contrast" | "imagery"}
-
-
-
-
-
+type = attribute type {"phatic"|"praise"|"personification"|"repetition" | "simile" | "metaphor" | "irony" | "rhetoricalQuestion" | "parallelism" | "anaphora" | "allusion" | "contrast" | "imagery"}
