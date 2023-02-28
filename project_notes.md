@@ -12,7 +12,7 @@
 
 ### Markup Strategy:
 - **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` , `<body>` (body contains all verses)
-- **Analytical:** `<comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`, `<phatic-utterance>`
+- **Analytical:** `<amplification>, <comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`, `<phatic-utterance>`
 
 ### Other Thoughts:
 There are sometimes multiple sentences in one verse in the English translations when in the original Arabic, each verse only consists of one sentence. Should we pay attention to this?
@@ -21,6 +21,7 @@ Arabic poetic/lyrical tone gets lost in translation, should we tag these ecphone
 
 
 ### Guide for rhetorical devices:
+**Amplification:** *"Most Merciful, All Knowing..."*
 
 **Simile:**  *"His light is like a niche in which there is a lamp, the lamp is in a crystal, the crystal is like a shining star..."* 
 **Metaphor:** *"We have certainly cast veils over their hearts—leaving them unable to comprehend this ˹Quran˺—and deafness in their ears."*
