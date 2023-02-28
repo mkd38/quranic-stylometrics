@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="../schemas/arabic_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <surah>
     <metadata>
         <title n="13">الرعد‎</title>
