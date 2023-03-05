@@ -9,10 +9,11 @@
 ### Surahs for Markup:
 - *13: Ar-Ra'd, The Thunder*
 - *17: Al-Isra, The Night Journey*
+- *1: Al-Fatihah, The Opener*
 
 ### Markup Strategy:
-- **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` , `<body>` (body contains all verses)
-- **Analytical:** `<amplification>, <comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`, `<phatic-utterance>`
+- **Structural:** `<surah>` , `<translator>` , `<title>` , `<ayah>` , `<body>` (body contains all surahs)
+- **Analytical:** `<amplification>` (use ONLY for Holy names of God, tag EACH holy name), `<comparison> @metaphor @simile` , `<imagery>` , `<repetition> @parallelism @anaphora` , `<allusion>` , `<contrast>` , `<irony>` , `<rhetoricalQuestion>` , `<place>` , `<name>`, `<phatic-utterance>`
 
 ### Other Thoughts:
 There are sometimes multiple sentences in one verse in the English translations when in the original Arabic, each verse only consists of one sentence. Should we pay attention to this?
