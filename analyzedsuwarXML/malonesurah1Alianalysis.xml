@@ -8,22 +8,22 @@
         <source/>
     </metadata>
     <body>
-        <ayah n="1"> In the name of Allah, <device type="parallelism"><device type="praise">Most Gracious, Most
-                Merciful.</device></device></ayah>
+        <ayah n="1"> In the name of Allah, <repetition type="parallelism"><amplification>Most Gracious</amplification>, <amplification>Most
+                Merciful.</amplification></repetition></ayah>
         <ayah n="2">
-            <device type="praise">Praise be to Allah, the Cherisher and Sustainer of the
-            worlds;</device></ayah>
+            Praise be to Allah, <amplification>the Cherisher</amplification> and <amplification>Sustainer of the
+            worlds</amplification>;</ayah>
         <ayah n="3">
-            <device type="parallelism"><device type="praise">Most Gracious, Most Merciful;</device></device>
+            <repetition type="parallelism"><amplification>Most Gracious</amplification>, <amplification>Most Merciful</amplification>;</repetition>
         </ayah>
         <ayah n="4">
-            <device type="praise">Master of the Day of Judgment.</device>
+            <amplification>Master of the Day of Judgment.</amplification>
         </ayah>
         <ayah n="5"> Thee do we worship, and Thine aid we seek.</ayah>
         <ayah n="6"> Show us the straight way,</ayah>
         <ayah n="7">
-            <device type="contrast">The way of those on whom Thou hast bestowed Thy Grace, those
-                whose (portion) is not wrath, and who go not astray.</device>
+            <contrast>The way of those on whom Thou hast bestowed Thy Grace, those
+                whose (portion) is not wrath, and who go not astray.</contrast>
         </ayah>
     </body>
 </surah>
