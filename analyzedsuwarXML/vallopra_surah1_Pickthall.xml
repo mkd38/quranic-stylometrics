@@ -9,11 +9,14 @@
         <source/>
     </metadata>
     <body>
-        <ayah n="1"> In the name of Allah, <device type="praise">the Beneficent</device>, <device type="praise">the Merciful</device>. </ayah>
-        <ayah n="2"> Praise be to Allah, <device type="praise">Lord of the Worlds</device>, </ayah>
-        <ayah n="3"> <device type="praise">The Beneficent</device>, <device type="praise">the Merciful</device>. </ayah>
-        <ayah n="4"> <device type="praise">Master of the Day of Judgment</device>, </ayah>
-        <ayah n="5"> Thee (alone) we worship; Thee (alone) we ask for help. </ayah>
+        <ayah n="1"> In the name of Allah, <amplification>the Beneficent</amplification>, <amplification>the Merciful</amplification>. </ayah>
+        <ayah n="2"> <amplification>Praise be to Allah</amplification>, <amplification>Lord of the Worlds</amplification>, </ayah>
+        <ayah n="3">
+            <amplification>The Beneficent</amplification>, <amplification>the
+                Merciful</amplification>. </ayah>
+        <ayah n="4">
+            <amplification>Master of the Day of Judgment</amplification>, </ayah>
+        <ayah n="5"><repetition device="parallelism"> Thee (alone) we worship; Thee (alone) we ask for help.</repetition> </ayah>
         <ayah n="6"> Show us the straight path, </ayah>
         <ayah n="7"> The path of those whom Thou hast favoured; Not the (path) of those who earn
             Thine anger nor of those who go astray. </ayah>
