@@ -8,13 +8,13 @@
         <source/>
     </metadata>
     <body>
-        <ayah n="1"> In the name of Allah, <repetition type="parallelism"><amplification>Most Gracious</amplification>, <amplification>Most
-                Merciful.</amplification></repetition></ayah>
+        <ayah n="1"> In the name of Allah,<amplification>Most Gracious</amplification>, <amplification>Most
+                Merciful.</amplification></ayah>
         <ayah n="2">
-            Praise be to Allah, <amplification>the Cherisher</amplification> and <amplification>Sustainer of the
+            <amplification>Praise be to Allah, </amplification><amplification>the Cherisher</amplification> and <amplification>Sustainer of the
             worlds</amplification>;</ayah>
         <ayah n="3">
-            <repetition type="parallelism"><amplification>Most Gracious</amplification>, <amplification>Most Merciful</amplification>;</repetition>
+            <amplification>Most Gracious</amplification>, <amplification>Most Merciful</amplification>;
         </ayah>
         <ayah n="4">
             <amplification>Master of the Day of Judgment.</amplification>
@@ -22,8 +22,8 @@
         <ayah n="5"> Thee do we worship, and Thine aid we seek.</ayah>
         <ayah n="6"> Show us the straight way,</ayah>
         <ayah n="7">
-            <contrast>The way of those on whom Thou hast bestowed Thy Grace, those
-                whose (portion) is not wrath, and who go not astray.</contrast>
+            The way of those on whom Thou hast bestowed Thy Grace, those
+            whose (portion) is not wrath, and who go not astray.
         </ayah>
     </body>
 </surah>
