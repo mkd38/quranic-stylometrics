@@ -1,96 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="englishschema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
         <title>Surah 13 The Thunder Ar-Rad</title>
-        <editor/>
+        <editor>Abdullah Yusuf Ali</editor>
         <translator>Abdullah Yusuf Ali</translator>
-        <source/>
+        <source>http://www.perseus.tufts.edu/hopper/</source>
     </metadata>
     <body>
         <ayah n="1">A.L.M.R. These are the signs (or verses) of the Book: that which hath been
             revealed unto thee from thy Lord is the <repetition type="motif">Truth</repetition>; but
             most men believe not.</ayah>
-        <ayah n="2">Allah
-            <repetition type="parallelism">is He Who</repetition> raised the heavens without any pillars
-            that ye can see; is firmly established on the throne (of authority); He has subjected
-            the sun and the moon (to his Law)<emph>!</emph> Each one runs (its course) for a term appointed. He
-            doth regulate all affairs, explaining the signs in detail, that ye may believe with
-            certainty in the meeting with your Lord.</ayah>
-        <ayah n="3">And it <repetition type="parallelism">is He who</repetition> spread out the earth, and
-            set thereon mountains standing firm and (flowing) rivers: and fruit of every kind He
-            made in pairs, two and two: He draweth the night as a veil o'er the Day. Behold, <emph>verily</emph>
-            in these things there are signs for those who consider<emph>!</emph></ayah>
-        <ayah n="4">And in the earth are tracts (diverse though) neighbouring, and gardens of vines
-            and fields sown with corn, and palm trees - growing out of single roots or otherwise:
-            watered with the same water, yet some of them We make more excellent than others to eat.
-            Behold, <emph>verily</emph> in these things there are signs for those who understand<emph>!</emph></ayah>
+        <ayah n="2">Allah <repetition type="anaphora">is He Who</repetition> raised the heavens
+            without any pillars that ye can see; is firmly established on the throne (of authority);
+            He has subjected the sun and the moon (to his Law)<emph>!</emph> Each one runs (its
+            course) for a term appointed. He doth regulate all affairs, explaining the signs in
+            detail, that ye may believe with certainty in the meeting with your Lord.</ayah>
+        <ayah n="3"><imagery>And it <repetition type="anaphora">is He who</repetition> spread out
+                the earth, and set thereon mountains standing firm and (flowing) rivers: and fruit
+                of every kind He made in pairs, two and two: He draweth the night as a veil o'er the
+                Day.</imagery> Behold, <emph>verily</emph> in these things there are signs for those
+            who consider<emph>!</emph></ayah>
+        <ayah n="4"><imagery>And in the earth are tracts (diverse though) neighbouring, and gardens
+                of vines and fields sown with corn, and palm trees - growing out of single roots or
+                otherwise: watered with the same water,</imagery> yet some of them We make more
+            excellent than others to eat. Behold, <emph>verily</emph> in these things there are
+            signs for those who understand<emph>!</emph></ayah>
         <ayah n="5">If thou dost marvel (at their want of faith), strange is their saying: "When we
-            are (actually) dust, shall we <emph>indeed</emph> then be in a creation renewed?" They are those who
-            deny their Lord<emph>!</emph> They are those round whose necks will be yokes (of servitude): they
-            will be Companions of the Fire, to dwell therein (for aye)<emph>!</emph></ayah>
+            are (actually) dust, shall we <emph>indeed</emph> then be in a creation renewed?" They
+            are those who deny their Lord<emph>!</emph> They are those round whose necks will be
+            yokes (of servitude): they will be Companions of the Fire, to dwell therein (for
+                aye)<emph>!</emph></ayah>
         <ayah n="6">They ask thee to hasten on the evil in preference to the good: Yet have come to
-            pass, before them, (many) exemplary punishments<emph>!</emph> <repetition type="parallelism">But <emph>verily</emph>
-                thy Lord is full of forgiveness for mankind for their wrong-doing, and <emph>verily</emph> thy
-                Lord is (also) strict in punishment.</repetition></ayah>
+            pass, before them, (many) exemplary punishments<emph>!</emph>
+            <repetition type="parallelism">But <emph>verily</emph> thy Lord is full of forgiveness
+                for mankind for their wrong-doing, and <emph>verily</emph> thy Lord is (also) strict
+                in punishment.</repetition></ayah>
         <ayah n="7">And the Unbelievers say: "Why is not a sign sent down to him from his Lord?" But
             thou art truly a warner, and to every people a guide.</ayah>
-        <ayah n="8">Allah doth know what every female (womb) doth
-            bear, by how much the wombs fall short (of their time or nber) or do exceed. Every
-            single thing is before His sight, in (due) proportion.</ayah>
-        <ayah n="9"><device type="praise">He knoweth the unseen and that which is open: He is the
-                Great, the Most High.</device></ayah>
+        <ayah n="8">Allah doth know what every female (womb) doth bear, by how much the wombs fall
+            short (of their time or nber) or do exceed. Every single thing is before His sight, in
+            (due) proportion.</ayah>
+        <ayah n="9">He knoweth the unseen and that which is open: He is <amplifaction>the
+                Great</amplifaction>, <amplification>the Most High</amplification>.</ayah>
         <ayah n="10">It is the same (to Him) whether any of you conceal his speech or declare it
             openly; whether he lie hid by night or walk forth freely by day.</ayah>
         <ayah n="11">For each (such person) there are (angels) in succession, before and behind him:
-            They guard him by command of Allah. <device
-                type="repetition">Allah</device> does not change a people's lot unless they change
-            what is in their hearts. But when (once) Allah
-            willeth a people's punishment, there can be no turning it back, nor will they find,
-            besides Him, any to protect.</ayah>
-        <ayah n="12">It is He Who doth show you the lightning, by way both of fear and of hope: It
-            is He Who doth raise up the clouds, heavy with (fertilising) rain<emph>!</emph></ayah>
-        <ayah n="13">Nay, thunder repeateth His praises, and so do the angels, with awe: He flingeth
-            the loud-voiced thunder-bolts, and therewith He striketh whomsoever He will..yet these
-            (are the men) who (dare to) dispute about Allah, with
-            the strength of His power (supreme)<emph>!</emph></ayah>
-        <ayah n="14">For Him (alone) is prayer in <repetition type="motif">Truth</repetition>: any
-            others that they call upon besides Him hear them no more than if they were to stretch
-            forth their hands for water to reach their mouths but it reaches them not: for the
-            prayer of those without Faith is nothing but (futile) wandering (in the mind).</ayah>
+            They guard him by command of Allah. Allah does not change a people's lot unless they
+            change what is in their hearts. But when (once) Allah willeth a people's punishment,
+            there can be no turning it back, nor will they find, besides Him, any to protect.</ayah>
+        <ayah n="12"><repetition type="anaphora">It is He Who doth</repetition> show you the
+            lightning, by way both of fear and of hope: <repetition type="anaphora">It is He Who
+                doth</repetition> raise up the clouds, heavy with (fertilising)
+            rain<emph>!</emph></ayah>
+        <ayah n="13"><imagery>Nay, thunder repeateth His praises, and so do the angels, with awe: He
+                flingeth the loud-voiced thunder-bolts</imagery>, and therewith He striketh
+            whomsoever He will..yet these (are the men) who (dare to) dispute about Allah, with the
+            strength of His power (supreme)<emph>!</emph></ayah>
+        <ayah n="14">For Him (alone) is prayer in <repetition type="motif">Truth</repetition>:
+                <imagery>any others that they call upon besides Him hear them no more than if they
+                were to stretch forth their hands for water to reach their mouths but it reaches
+                them not</imagery>: for the prayer of those without Faith is nothing but (futile)
+            wandering (in the mind).</ayah>
         <ayah n="15">Whatever beings there are in the heavens and the earth do prostrate themselves
-            to Allah (Acknowledging subjection),- with good-will
-            or in spite of themselves: so do their shadows in the morning and evenings.</ayah>
-        <ayah n="16">Say: "Who is the <device type="praise">Lord and Sustainer of the heavens and the earth</device>?" Say: "(It
-            is) Allah." Say: "Do ye then take (for worship)
+            to Allah (Acknowledging subjection),- with good-will or in spite of themselves: so do
+            their shadows in the morning and evenings.</ayah>
+        <ayah n="16">Say: "Who is <amplification>the Lord and Sustainer of the heavens and the
+                earth</amplification>?" Say: "(It is) Allah." Say: "Do ye then take (for worship)
             protectors other than Him, such as have no power either for good or for harm to
-            themselves?" Say: "Are the blind equal with those who see? Or the depths of darkness
-            equal with light?" Or do they assign to Allah
-            partners who have created (anything) as He has created, so that the creation seemed to
-            them similar? Say: "Allah is the <device type="praise"> Creator of all
-            things: He is the One, the Supreme and Irresistible."</device></ayah>
-        <ayah n="17">He sends down water from the skies, and the channels flow, each according to
-            its measure: But the torrent bears away to foam that mounts up to the surface. Even so,
-            from that (ore) which they heat in the fire, to make ornaments or utensils therewith,
-            there is a scum likewise. Thus doth <repetition type="parallelism"><device type="repetition"
-                    >Allah</repetition> (by parables) show forth</device>
-            <repetition type="motif">Truth</repetition> and Vanity. <comparison type="simile">For the scum
-                disappears like forth cast out;</comparison> while that which is for the good of mankind
-            remains on the earth. Thus doth <repetition type="parallelism"><device type="repetition"
-                    >Allah</repetition> set forth parables.</device></ayah>
+            themselves?" Say: <rhetoricalQuestion>"Are the blind equal with those who
+                see?</rhetoricalQuestion>
+            <rhetoricalQuestion>Or the depths of darkness equal with light?"</rhetoricalQuestion>
+            <rhetoricalQuestion>Or do they assign to Allah partners who have created (anything) as
+                He has created, so that the creation seemed to them similar?</rhetoricalQuestion>
+            Say: "Allah is <amplification>the Creator of all things</amplification>: He is
+                <amplification>the One</amplification>, <amplification>the Supreme and
+                Irresistible</amplification>."</ayah>
+        <ayah n="17"><imagery>He sends down water from the skies, and the channels flow, each
+                according to its measure: But the torrent bears away to foam that mounts up to the
+                surface.</imagery> Even so, from that (ore) which they heat in the fire, to make
+            ornaments or utensils therewith, there is a scum likewise. Thus doth Allah (by parables)
+            show forth <repetition type="motif">Truth</repetition> and Vanity. <comparison
+                type="simile">For the scum disappears like forth cast out;</comparison> while that
+            which is for the good of mankind remains on the earth. Thus doth Allah set forth
+            parables.</ayah>
         <ayah n="18">For those who respond to their Lord, are (all) good things. But those who
             respond not to Him,- Even if they had all that is in the heavens and on earth, and as
             much more, (in vain) would they offer it for ransom. For them will the reckoning be
             terrible: their abode will be Hell,- what a bed of misery<emph>!</emph></ayah>
         <ayah n="19"><comparison type="simile">Is then one who doth know that that which hath been
-                revealed unto thee from thy Lord is the <repetition type="motif">Truth</comparison>,
-                like one who is blind?</device> It is those who are endued with understanding that
-            receive admonition;- </ayah>
-        <ayah n="20">Those who fulfil the covenant of Allah and
-            fail not in their plighted word;</ayah>
-        <ayah n="21">Those who join together those things which <device type="repetition"
-                >Allah</device> hath commanded to be joined, hold their Lord in awe, and fear the
-            terrible reckoning;</ayah>
+                revealed unto thee from thy Lord is the <repetition type="motif">Truth</repetition>,
+                like one who is blind?</comparison> It is those who are endued with understanding
+            that receive admonition;- </ayah>
+        <ayah n="20">Those who fulfil the covenant of Allah and fail not in their plighted
+            word;</ayah>
+        <ayah n="21">Those who join together those things which Allah hath commanded to be joined,
+            hold their Lord in awe, and fear the terrible reckoning;</ayah>
         <ayah n="22">Those who patiently persevere, seeking the countenance of their Lord; Establish
             regular prayers; spend, out of (the gifts) We have bestowed for their sustenance,
             secretly and openly; and turn off Evil with good: for such there is the final attainment
@@ -98,80 +102,75 @@
         <ayah n="23">Gardens of perpetual bliss: they shall enter there, as well as the righteous
             among their fathers, their spouses, and their offspring: and angels shall enter unto
             them from every gate (with the salutation):</ayah>
-        <ayah n="24">"Peace unto you for that ye persevered in patience<emph>!</emph> Now how excellent is the
-            final home<emph>!</emph>"</ayah>
-        <ayah n="25">But those who break the Covenant of Allah,
-            after having plighted their word thereto, and cut asunder those things which <device
-                type="repetition">Allah</device> has commanded to be joined, and work mischief in
-            the land;- on them is the curse; for them is the terrible home<emph>!</emph></ayah>
-        <ayah n="26">Allah doth enlarge, or grant by (strict)
-            measure, the sustenance (which He giveth) to whomso He pleaseth. (The wordly) rejoice in
-            the life of this world: But the life of this world is but little comfort in the
-            Hereafter.</ayah>
+        <ayah n="24">"Peace unto you for that ye persevered in patience<emph>!</emph> Now how
+            excellent is the final home<emph>!</emph>"</ayah>
+        <ayah n="25">But those who break the Covenant of Allah, after having plighted their word
+            thereto, and cut asunder those things which Allah has commanded to be joined, and work
+            mischief in the land;- on them is the curse; for them is the terrible
+            home<emph>!</emph></ayah>
+        <ayah n="26">Allah doth enlarge, or grant by (strict) measure, the sustenance (which He
+            giveth) to whomso He pleaseth. (The wordly) rejoice in the life of this world: But the
+            life of this world is but little comfort in the Hereafter.</ayah>
         <ayah n="27">The Unbelievers say: "Why is not a sign sent down to him from his Lord?" Say:
-            "Truly Allah leaveth, to stray, whom He will; But He
-            guideth to Himself those who turn to Him in penitence,-</ayah>
-        <ayah n="28">"Those who believe, and whose hearts find satisfaction in the remembrance of
-                Allah: for without doubt in the remembrance of
-                Allah do hearts find satisfaction.</ayah>
+            "Truly Allah leaveth, to stray, whom He will; But He guideth to Himself those who turn
+            to Him in penitence,-</ayah>
+        <ayah n="28"><repetition type="parallelism">Those who believe, and whose hearts find
+                satisfaction in the remembrance of Allah: for without doubt in the remembrance of
+                Allah do hearts find satisfaction.</repetition></ayah>
         <ayah n="29">"For those who believe and work righteousness, is (every) blessedness, and a
             beautiful place of (final) return."</ayah>
         <ayah n="30">Thus have we sent thee amongst a People before whom (long since) have (other)
             Peoples (gone and) passed away; in order that thou mightest rehearse unto them what We
-            send down unto thee by inspiration; yet do they reject (Him), the <amplification>Most Gracious</amplification><emph>!</emph> Say:
-            "He is my Lord<emph>!</emph> There is no god but He<emph>!</emph> On Him is my trust, and to Him do I
-            turn<emph>!</emph>"</ayah>
+            send down unto thee by inspiration; yet do they reject (Him), the <amplification>Most
+                Gracious</amplification><emph>!</emph> Say: "He is my Lord<emph>!</emph> There is no
+            god but He<emph>!</emph> On Him is my trust, and to Him do I turn<emph>!</emph>"</ayah>
         <ayah n="31">If there were a Qur'an with which mountains were moved, or the earth were
-            cloven asunder, or the dead were made to speak, (this would be the one<emph>!</emph>) But, truly, the
-            command is with Allah in all things<emph>!</emph> Do not the
-            Believers know, that, had Allah (so) willed, He could
-            have guided all mankind (to the right)? But the Unbelievers,- never will disaster cease
-            to seize them for their (ill) deeds, or to settle close to their homes, until the
-            promise of Allah come to pass, for, <emph>verily</emph>, <device
-                type="repetition">Allah</device> will not fail in His promise.</ayah>
+            cloven asunder, or the dead were made to speak, (this would be the one<emph>!</emph>)
+            But, truly, the command is with Allah in all things<emph>!</emph> Do not the Believers
+            know, that, had Allah (so) willed, He could have guided all mankind (to the right)? But
+            the Unbelievers,- never will disaster cease to seize them for their (ill) deeds, or to
+            settle close to their homes, until the promise of Allah come to pass, for,
+                <emph>verily</emph>, Allah will not fail in His promise.</ayah>
         <ayah n="32">Mocked were (many) messengers before thee: but I granted respite to the
-            unbelievers, and finally I punished them: Then how (terrible) was my requital<emph>!</emph></ayah>
+            unbelievers, and finally I punished them: Then how (terrible) was my
+                requital<emph>!</emph></ayah>
         <ayah n="33">Is then He who standeth over every soul (and knoweth) all that it doth, (like
-            any others)? <irony>And yet they ascribe partners to <device
-                    type="repetition">Allah</irony>.</device> Say: <device
-                type="rhetoricalQuestion">"But name them<emph>!</emph> is it that ye will inform Him of something
-                he knoweth not on earth, or is it (just) a show of words?"</device> <emph>Nay!</emph> to those
-            who believe not, their pretence seems pleasing, but they are kept back (thereby) from
-            the path. And those whom Allah leaves to stray, no
-            one can guide.</ayah>
-        <ayah n="34"><repetition type="parallelism">For them is a penalty in the life of this world, but
-                harder, truly, is the penalty of the Hereafter:</repetition> and defender have they none
-            against Allah.</ayah>
-        <ayah n="35">The parable of the Garden which the righteous are promised<emph>!</emph>- beneath it flow
-            rivers: perpetual is the enjoyment thereof and the shade therein: such is the end of the
-            Righteous; and the end of Unbelievers in the Fire.</ayah>
+            any others)? <irony>And yet they ascribe partners to Allah</irony>. Say:
+                <rhetoricalQuestion>"But name them<emph>!</emph> is it that ye will inform Him of
+                something he knoweth not on earth, or is it (just) a show of
+                words?"</rhetoricalQuestion>
+            <emph>Nay!</emph> to those who believe not, their pretence seems pleasing, but they are
+            kept back (thereby) from the path. And those whom Allah leaves to stray, no one can
+            guide.</ayah>
+        <ayah n="34"><repetition type="parallelism">For them is a penalty in the life of this world,
+                but harder, truly, is the penalty of the Hereafter:</repetition> and defender have
+            they none against Allah.</ayah>
+        <ayah n="35">The parable of the Garden which the righteous are promised<emph>!</emph>-
+            beneath it flow rivers: perpetual is the enjoyment thereof and the shade therein: such
+            is the end of the Righteous; and the end of Unbelievers in the Fire.</ayah>
         <ayah n="36">Those to whom We have given the Book rejoice at what hath been revealed unto
             thee: but there are among the clans those who reject a part thereof. Say: "I am
-            commanded to worship Allah, and not to join partners
-            with Him. <repetition type="parallelism">Unto Him do I call, and unto Him is my
-                return.</repetition>"</ayah>
+            commanded to worship Allah, and not to join partners with Him. <repetition
+                type="parallelism">Unto Him do I call, and unto Him is my
+            return.</repetition>"</ayah>
         <ayah n="37">Thus have We revealed it to be a judgment of authority in Arabic. Wert thou to
             follow their (vain) desires after the knowledge which hath reached thee, then wouldst
-            thou find neither protector nor defender against <device type="repetition"
-                >Allah</device>.</ayah>
+            thou find neither protector nor defender against Allah.</ayah>
         <ayah n="38">We did send messengers before thee, and appointed for them wives and children:
-            and it was never the part of a messenger to bring a sign except as <device
-                type="repetition">Allah</device> permitted (or commanded). For each period is a Book
-            (revealed).</ayah>
-        <ayah n="39">Allah doth blot out or confirm what He
-            pleaseth: with Him is the Mother of the Book.</ayah>
-        <ayah n="40">Whether We shall show thee (within thy life-time) part
-            of what we promised them or take to ourselves thy
-            soul (before it is all accomplished),- thy duty is to
-            make (the Message) reach them: it is our part to call them to account.</ayah>
+            and it was never the part of a messenger to bring a sign except as Allah permitted (or
+            commanded). For each period is a Book (revealed).</ayah>
+        <ayah n="39">Allah doth blot out or confirm what He pleaseth: with Him is the Mother of the
+            Book.</ayah>
+        <ayah n="40">Whether We shall show thee (within thy life-time) part of what we promised them
+            or take to ourselves thy soul (before it is all accomplished),- thy duty is to make (the
+            Message) reach them: it is our part to call them to account.</ayah>
         <ayah n="41">See they not that We gradually reduce the land (in their control) from its
-            outlying borders? <repetition type="parallelism">(Where) Allah commands, there is none to put back His Command:</repetition> and He
-            is swift in calling to account.</ayah>
+            outlying borders? <repetition type="parallelism">(Where) Allah commands, there is none
+                to put back His Command:</repetition> and He is swift in calling to account.</ayah>
         <ayah n="42">Those before them did (also) devise plots; but in all things the
             master-planning is Allah's He knoweth the doings of every soul: and soon will the
             Unbelievers know who gets home in the end.</ayah>
         <ayah n="43">The Unbelievers say: "No messenger art thou." Say: "Enough for a witness
-            between me and you is Allah, and such as have
-            knowledge of the Book."</ayah>
+            between me and you is Allah, and such as have knowledge of the Book."</ayah>
     </body>
 </surah>
