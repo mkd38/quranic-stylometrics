@@ -1,16 +1,16 @@
 start = surah
 surah = element surah { metadata, body }
-metadata = element metadata { title, editor, translator?, source }
+metadata = element metadata { title, compiler, translator?, source }
 # mandatory element for editor; optional translation credit 
 title =
     element title {
         mixed { n }
     }
 n = attribute n { text }
-editor = element editor { text }
+compiler = element compiler { text }
 translator = element translator { text }
 source = element source { text }
-body = element body { mixed { ayah+ & comparison* & imagery* & repetition* & amplification* & allusion* & contrast* & irony* & place* & name* & rhetoricalQuestion*} } 
+body = element body { mixed { ayah+ & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} } 
 ##these elements may occur in any order
 ayah =
     element ayah {
