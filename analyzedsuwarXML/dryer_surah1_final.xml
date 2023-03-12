@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+<?xml-model href="../schemas/arabic_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
         <title n="1">ألْفَاتِحَة</title>
-        <editor>Muhammad M. Pickthall</editor>
+        <compiler>Muhammad M. Pickthall</compiler>
         <source>http://www.perseus.tufts.edu/hopper/text?doc=1&amp;fromdoc=Perseus%3Atext%3A2002.02.0006</source>
     </metadata>
     <body>
-        <ayah n="1"/><amplification>بِسْمِ اللَّهِ <amplification>الرَّحْمَٰن</amplification>ِ<amplification> الرَّحِيمِ</amplification></amplification>
+        <ayah n="1"/><amplification>الرَّحْمَٰن</amplification>ِ<amplification> الرَّحِيمِ</amplification><amplification>بِسْمِ اللَّهِ</amplification>
         <ayah n="2"/><amplification>الْحَمْدُ لِلَّهِ</amplification> <amplification>رَبِّ الْعَالَمِينَ</amplification>
         <ayah n="3"/><amplification>الرَّحْمَٰنِ</amplification> <amplification>الرَّحِيمِ</amplification>
         <ayah n="4"/><amplification>مَالِكِ يَوْمِ الدِّينِ</amplification>
