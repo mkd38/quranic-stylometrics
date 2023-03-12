@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="englishschema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
         <title>Surah 1 The Opening Al-Fatihah</title>
-        <editor/>
+        <editor>Abdullah Yusuf Ali</editor>
         <translator>Abdullah Yusuf Ali</translator>
-        <source/>
+        <source>http://www.perseus.tufts.edu/hopper/</source>
     </metadata>
     <body>
+<<<<<<< HEAD
         <ayah n="1"> In the name of Allah,<amplification>Most Gracious</amplification>, <amplification>Most
                 Merciful.</amplification></ayah>
         <ayah n="2">
@@ -16,14 +16,27 @@
         <ayah n="3">
             <amplification>Most Gracious</amplification>, <amplification>Most Merciful</amplification>;
         </ayah>
+=======
+        <ayah n="1"> In the name of Allah, <amplification>Most Gracious</amplification>,
+                <amplification>Most Merciful.</amplification></ayah>
+        <ayah n="2"> Praise be to Allah, <amplification>the Cherisher</amplification> and
+                <amplification>Sustainer of the worlds</amplification>;</ayah>
+        <ayah n="3"> ><amplification>Most Gracious</amplification>, <amplification>Most
+                Merciful</amplification>; </ayah>
+>>>>>>> 0778be35a75b0fea9b8508d9b7253dd58d8a9bf6
         <ayah n="4">
             <amplification>Master of the Day of Judgment.</amplification>
         </ayah>
         <ayah n="5"> Thee do we worship, and Thine aid we seek.</ayah>
         <ayah n="6"> Show us the straight way,</ayah>
+<<<<<<< HEAD
         <ayah n="7">
             The way of those on whom Thou hast bestowed Thy Grace, those
             whose (portion) is not wrath, and who go not astray.
         </ayah>
+=======
+        <ayah n="7"> The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is
+            not wrath, and who go not astray. </ayah>
+>>>>>>> 0778be35a75b0fea9b8508d9b7253dd58d8a9bf6
     </body>
 </surah>
