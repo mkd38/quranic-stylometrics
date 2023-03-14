@@ -15,7 +15,7 @@ body = element body { mixed { ayah+} }
 ayah =
     element ayah { mixed {  n & emph* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} }
 emph = element emph { text }
-comparison = element comparison { mixed {device} }  
+comparison = element comparison { mixed {device & repetition*} }  
 repetition = element repetition { mixed {device & ayah* & emph*} } 
 irony = element irony { mixed {device} }
 amplification = element amplification { text }
