@@ -13,17 +13,17 @@ source = element source { text }
 body = element body { mixed { ayah+} } 
 # these elements may occur in any order
 ayah =
-    element ayah { mixed {  n & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} }
-# empty ayah milestone due to difficulties with bidirectional text
+    element ayah { mixed {  n & emph* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} }
+emph = element emph { text }
 comparison = element comparison { mixed {device} }  
-repetition = element repetition { mixed {device & ayah*} } 
+repetition = element repetition { mixed {device & ayah* & emph*} } 
 irony = element irony { mixed {device} }
 amplification = element amplification { text }
-imagery = element imagery {mixed { amplification* & ayah* & comparison*} }
+imagery = element imagery {mixed { amplification* & ayah* & comparison* & repetition*} }
 allusion = element allusion {mixed { place* & name* } }
 place = element place { text }
 name = element name { text }
-rhetoricalQuestion = element rhetoricalQuestion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name*} }
+rhetoricalQuestion = element rhetoricalQuestion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & emph*} }
 device = attribute device {text} #simile, metaphor, anaphora, motif
 
  
