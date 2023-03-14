@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="MidTerm%20Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
-        <title>Surah 1 The Opener Al-Fatiha</title>
-        <editor>Muhammad Marmaduke Pickthall</editor>
+        <title n="1">Surah 1 The Opener Al-Fatiha</title>
+        <compiler>Muhammad Marmaduke Pickthall</compiler>
         <translator>Muhammad Marmaduke Pickthall</translator>
         <source/>
     </metadata>
@@ -12,8 +12,8 @@
         <ayah n="1"> Glorified be He Who carried His servant by night from the Inviolable Place of
             Worship to the Far distant place of worship the neighbourhood whereof We have blessed,
             that We might show him of Our tokens<emph>!</emph>
-            <emph>Lo!</emph> He, only He, is <device type="praise">the
-                Hearer</device>, <device type="praise">the Seer</device>. </ayah>
+            <emph>Lo!</emph> He, only He, is <amplification>the
+                Hearer</amplification>, <amplification>the Seer</amplification>. </ayah>
         <ayah n="2"> We gave unto <name>Moses</name> the Scripture, and We appointed it a guidance
             for the children of Israel, saying: Choose no guardian beside Me. </ayah>
         <ayah n="3"> (They were) the seed of those whom We carried (in the ship) along with
@@ -28,8 +28,8 @@
             is for them (in like manner). So, when the time for the second (of the judgments) came
             (We roused against you others of Our slaves) to ravage you, and <comparison device="simile">to enter the Temple
                 even as they entered it the first time</comparison>, and to
-                <repition device="anaphora">lay waste all that they conquered with an utter
-                wasting.</repition>
+                <repetition device="anaphora">lay waste all that they conquered with an utter
+                wasting.</repetition>
         </ayah>
         <ayah n="8"> It may be that your Lord will have mercy on you, but if <repetition device="parallelism">ye repeat (the crime)
             We shall repeat (the punishment)</repetition>, and We have appointed hell a dungeon for the
@@ -46,34 +46,34 @@
         <ayah n="12"> And We appoint the night and the day two portents. Then We make dark the
             portent of the night, and We make the portent of the day sight-giving, that ye may seek
             bounty from your Lord, and that ye may know the computation of the years, and the
-            reckoning; and everything have <repitition device="anaphora">We expounded with a clear
-                expounding</repitition>.</ayah>
+            reckoning; and everything have <repetition device="anaphora">We expounded with a clear
+                expounding</repetition>.</ayah>
         <ayah n="13"> And every man's augury have We fastened to his own neck, and We shall bring
             forth for him on the Day of Resurrection a book which he will find wide open. </ayah>
         <ayah n="14"> (And it will be said unto him): Read thy Book. Thy soul sufficeth as reckoner
             against thee this day. </ayah>
-        <ayah n="15"> <repitition type="parallelism">Whosoever goeth right, it is only for (the good of) his own soul that he goeth
-            right, and whosoever erreth, erreth only to its hurt.</repitition> No laden soul can bear another's
+        <ayah n="15"> <repetition device="parallelism">Whosoever goeth right, it is only for (the good of) his own soul that he goeth
+            right, and whosoever erreth, erreth only to its hurt.</repetition> No laden soul can bear another's
             load, We never punish until we have sent a messenger. </ayah>
         <ayah n="16"> And when We would destroy a township We send commandment to its folk who live
             at ease, and afterward they commit abomination therein, and so the Word (of doom) hath
-            effect for it, and <repitition device="anaphora">we annihilate it with complete
-                annihilation</repitition>. </ayah>
+            effect for it, and <repetition device="anaphora">we annihilate it with complete
+                annihilation</repetition>. </ayah>
         <ayah n="17">
-            <device type="rhetoricalQuestion">How many generations have We destroyed since
-                    Noah<emph>!</emph></device> And Allah sufficeth as <emph>Knower</emph> and <emph>Beholder</emph> of the
+            <rhetoricalQuestion>How many generations have We destroyed since
+                    Noah<emph>!</emph></rhetoricalQuestion> And Allah sufficeth as <emph>Knower</emph> and <emph>Beholder</emph> of the
             sins of His slaves. </ayah>
         <ayah n="18"> Whoso desireth that (life) which hasteneth away, We hasten for him therein
             what We will for whom We please. And afterward We have appointed for him hell; he will
             endure the heat thereof, <repetition device="motif">condemned, rejected.</repetition> </ayah>
         <ayah n="19"> And whoso desireth the Hereafter and striveth for it with the effort
             necessary, being a believer; for such, their effort findeth favour (with their Lord). </ayah>
-        <ayah n="20"> Each do We supply, both these and those, from <repitition device="anaphora"> the bounty of thy Lord. And
-            the bounty of thy Lord </device>can never be walled up. </ayah>
+        <ayah n="20"> Each do We supply, both these and those, from <repetition device="anaphora"> the bounty of thy Lord. And
+            the bounty of thy Lord </repetition>can never be walled up. </ayah>
         <ayah n="21"> See how We prefer one of them above another, and verily the Hereafter will be
             greater in degrees and greater in preferment.</ayah>
-        <ayah n="22"> Set not up with Allah any other god (<emph>O<emph> man) lest thou <repetition device="motif">sit down reproved,
-            forsaken. </ayah>
+        <ayah n="22"> Set not up with Allah any other god (<emph>O</emph> man) lest thou <repetition device="motif">sit down reproved,
+            forsaken.</repetition></ayah>
         <ayah n="23"> Thy Lord hath decreed, that ye worship none save Him, and (that ye show)
             kindness to parents. If one of them or both of them attain old age with thee, say not
             "Fie" unto them nor repulse them, but speak unto them a gracious word. </ayah>
@@ -144,17 +144,15 @@
             they turn their backs in aversion. </ayah>
         <ayah n="47"> We are Best Aware of what they wish to hear when they give ear to thee and
             when they take secret counsel, when the evil-doers say: Ye follow but a man bewitched. </ayah>
-        <ayah n="48"> See what similitudes they coin for thee, and thus are all astray, and <device
-                type="imagery">cannot find a road<emph>!</emph></device>
+        <ayah n="48"> See what similitudes they coin for thee, and thus are all astray, and <imagery>cannot find a road<emph>!</emph></imagery>
         </ayah>
-        <ayah n="49"> And they say: When <device type="metaphor">we are bones and
-            fragments</device>, shall we forsooth, be <device type="imagery">raised up as a new
-                creation?</device>
+        <ayah n="49"> And they say: When <comparison device="metaphor">we are bones and
+            fragments</comparison>, shall we forsooth, be <imagery>raised up as a new
+                creation?</imagery>
         </ayah>
-        <ayah n="50"> Say: Be <device type="metaphor">ye stones or iron</device>
+        <ayah n="50"> Say: Be <comparison device="metaphor">ye stones or iron</comparison>
         </ayah>
-        <ayah n="51"> Or some created thing that is yet greater in your thoughts<device
-                type="phatic">!</device> Then they will say: Who shall bring us back (to life). Say:
+        <ayah n="51"> Or some created thing that is yet greater in your thoughts<emph>!</emph> Then they will say: Who shall bring us back (to life). Say:
             He Who created you at the first. Then will they shake their heads at thee, and say: When
             will it be? Say: It will perhaps be soon; </ayah>
         <ayah n="52"> A day when He will call you and ye will answer with His praise, and ye will
@@ -211,7 +209,7 @@
         <ayah n="71"> On the day when We shall summon all men with their record, whoso is given his
             book in his right hand - such will read their book and they will not be wronged a shred. </ayah>
         <ayah n="72">
-            <repetition device="parallelism">Whoso is blind here will be blind in the Hereafter</device>, and
+            <repetition device="parallelism">Whoso is blind here will be blind in the Hereafter</repetition>, and
             yet further from the road.
         </ayah>
         <ayah n="73"> And they indeed strove hard to beguile thee (<name>Muhammad</name>) away from that
