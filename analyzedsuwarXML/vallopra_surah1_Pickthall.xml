@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="MidTerm%20Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
-        <title>Surah 1 The Opener Al-Fatiha</title>
-        <editor>Muhammad Marmaduke Pickthall</editor>
+        <title n="1">Surah 1 The Opener Al-Fatiha</title>
+        <compiler>Muhammad Marmaduke Pickthall</compiler>
         <translator>Muhammad Marmaduke Pickthall</translator>
         <source/>
     </metadata>
