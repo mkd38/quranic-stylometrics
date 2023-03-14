@@ -1,7 +1,7 @@
 start = surah
 surah = element surah { metadata, body }
 metadata = element metadata { title, compiler, translator?, source }
-# mandatory element for editor; optional translation credit 
+# optional translation credit 
 title =
     element title {
         mixed { n }
@@ -11,22 +11,19 @@ compiler = element compiler { text }
 translator = element translator { text }
 source = element source { text }
 body = element body { mixed { ayah+ & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} } 
-##these elements may occur in any order
+# these elements may occur in any order
 ayah =
-    element ayah {
-        mixed { n }
-    }
-# empty ayah element to replace milestone 
-comparison = element comparison { mixed {device} } 
-contrast = element contrast { mixed {ayah?} } 
-repetition = element repetition { mixed {ayah*, device*, comparison*, imagery*, repetition*} } #define devices   
+    element ayah { n }
+# empty ayah milestone due to difficulties with bidirectional text
+comparison = element comparison { mixed {device} }  
+repetition = element repetition { mixed {device} } 
 irony = element irony { mixed {device} }
-amplification = element amplification { mixed {ayah*, device*, comparison*, imagery*, repetition*} }
-imagery = element imagery {mixed {ayah*, device*, comparison*, imagery*, repetition*, amplification*} }
-allusion = element allusion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & contrast* & irony* & place* & name* & rhetoricalQuestion*} }
+amplification = element amplification { text }
+imagery = element imagery {mixed { amplification* & ayah*} }
+allusion = element allusion {mixed { place* & name* } }
 place = element place { text }
 name = element name { text }
-rhetoricalQuestion = element rhetoricalQuestion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & contrast* & irony* & place* & name*} }
+rhetoricalQuestion = element rhetoricalQuestion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name*} }
 device = attribute device {text} #simile, metaphor, anaphora, motif
 
  
