@@ -1,13 +1,13 @@
 start = surah
 surah = element surah { metadata, body }
-metadata = element metadata { title, compiler, translator?, source }
+metadata = element metadata { title, editor, translator?, source }
 # optional translation credit 
 title =
     element title {
         mixed { n }
     }
 n = attribute n { text }
-compiler = element compiler { text }
+editor = element editor { text }
 translator = element translator { text }
 source = element source { text }
 body = element body { mixed { ayah+} } 
