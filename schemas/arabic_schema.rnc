@@ -16,10 +16,10 @@ ayah =
     element ayah { n }
 # empty ayah milestone due to difficulties with bidirectional text
 comparison = element comparison { mixed {device} }  
-repetition = element repetition { mixed {device} } 
+repetition = element repetition { mixed {device & ayah*} } 
 irony = element irony { mixed {device} }
 amplification = element amplification { text }
-imagery = element imagery {mixed { amplification* & ayah*} }
+imagery = element imagery {mixed { amplification* & ayah* & comparison*} }
 allusion = element allusion {mixed { place* & name* } }
 place = element place { text }
 name = element name { text }
