@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="MidTerm%20Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <surah>
     <metadata>
-        <title>Surah 13 The Thunder Ar-Rad</title>
-        <editor>Muhammad Marmaduke Pickthall</editor>
+        <title n="13">Surah 13 The Thunder Ar-Rad</title>
+        <compiler>Muhammad Marmaduke Pickthall</compiler>
         <translator>Muhammad Marmaduke Pickthall</translator>
         <source/>
     </metadata>
@@ -26,7 +27,7 @@
             people who have sense. </ayah>
         <ayah n="5">
             <repetition device="anaphora">And if thou wonderest, then wondrous is their
-                saying</repetition>: When <comparison type="metaphor">we are dust</comparison>, are
+                saying</repetition>: When <comparison device="metaphor">we are dust</comparison>, are
             we then forsooth (to be raised) in a new creation? Such are they who disbelieve in their
             Lord; <imagery>such have carcans on their necks</imagery>; such are rightful owners of
             the Fire, they will abide therein. </ayah>
