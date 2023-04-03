@@ -24,6 +24,25 @@
                     }</style>
             </head>
             <body>
+                <!-- checkboxes for rhetorical devices -->
+                <div class="checkbox-container">
+                    <label><input type="checkbox" name="amplification"/>Amplification</label>
+                    <label><input type="checkbox" name="emph"/>Emphasis</label>
+                    <label><input type="checkbox" name="irony"/>Irony</label>
+                    <label><input type="checkbox" name="imagery"/>Imagery</label>
+                    <label><input type="checkbox" name="allusion"/>Allusion</label>
+                    <label><input type="checkbox" name="contrast"/>Contrast</label>
+                    <label><input type="checkbox" name="name"/>Name</label>
+                    <label><input type="checkbox" name="place"/>Place</label>
+                    <label><input type="checkbox" name="rhetoricalQuestion"/>Rhetorical
+                        Question</label>
+                    <label><input type="checkbox" name="motif"/>Motif</label>
+                    <label><input type="checkbox" name="anaphora"/>Anaphora</label>
+                    <label><input type="checkbox" name="parallelism"/>Parallelism</label>
+                    <label><input type="checkbox" name="metaphor"/>Metaphor</label>
+                    <label><input type="checkbox" name="simile"/>Simile</label>
+                </div>
+
                 <h1>
                     <xsl:value-of select="surah/metadata/title"/>
                 </h1>
@@ -63,86 +82,88 @@
     </xsl:template>
 
     <xsl:template match="amplification">
-        <span class="amplification">
+        <span class="amplification highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="emph">
-        <span class="emph">
+        <span class="emph highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="irony">
-        <span class="irony">
+        <span class="irony highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="imagery">
-        <span class="imagery">
+        <span class="imagery highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="allusion">
-        <span class="allusion">
+        <span class="allusion highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="contrast">
-        <span class="contrast">
+        <span class="contrast highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="name">
-        <span class="name">
+        <span class="name highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="place">
-        <span class="place">
+        <span class="place highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="rhetoricalQuestion">
-        <span class="rhetoricalQuestion">
+        <span class="rhetoricalQuestion highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="repetition[@type = 'motif']">
-        <span class="motif">
+        <span class="motif highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="repetition[@type = 'anaphora']">
-        <span class="anaphora">
+        <span class="anaphora highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="repetition[@type = 'parallelism']">
-        <span class="parallelism">
+        <span class="parallelism highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="comparison[@type = 'metaphor']">
-        <span class="metaphor">
+        <span class="metaphor highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
     <xsl:template match="comparison[@type = 'simile']">
-        <span class="simile">
+        <span class="simile highlightable">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+
 </xsl:stylesheet>
