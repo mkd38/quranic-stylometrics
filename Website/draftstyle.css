@@ -1,35 +1,86 @@
-.amplification {
+body {
+    background-color: #ddc9b4
+}
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 150px;
+  border: 1px solid black;
+  padding: 5px;
+  overflow-y: auto;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+.checkbox-container label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.amplification.highlightable {
   background-color: yellow;
 }
 
-.emph {
+.emph.highlightable {
   background-color: lightblue;
 }
 
-.irony {
-  background-color: pink;
-}
-
-.imagery {
+.irony.highlightable {
   background-color: lightgreen;
 }
 
-.allusion {
+.imagery.highlightable {
+  background-color: lightsalmon;
+}
+
+.allusion.highlightable {
+  background-color: pink;
+}
+
+.contrast.highlightable {
   background-color: lavender;
 }
 
-.contrast {
-  background-color: orange;
+.name.highlightable {
+  background-color: gray;
 }
 
-.name {
-  background-color: skyblue;
+.place.highlightable {
+  background-color: brown;
 }
 
-.place {
-  background-color: lightgray;
+.rhetoricalQuestion.highlightable {
+  background-color: #FF9797;
 }
 
-.rhetoricalQuestion {
-  background-color: salmon;
+.motif.highlightable {
+  background-color: aqua;
 }
+
+.anaphora.highlightable {
+  background-color: lime;
+}
+
+.parallelism.highlightable {
+  background-color: teal;
+}
+
+.metaphor.highlightable {
+  background-color: fuchsia;
+}
+
+.simile.highlightable {
+  background-color: silver;
+}
+
+
+
+
+
