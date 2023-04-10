@@ -10,12 +10,12 @@ n = attribute n { text }
 editor = element editor { text }
 translator = element translator { text }
 source = element source { text }
-body = element body { mixed { ayah+ & imagery*} } 
+body = element body { mixed { ayah+ & imagery* & repetition*} } 
 # ^^^ added imagery to account for the empty ayah tags
 # 
 # these elements may occur in any order
 ayah =
-    element ayah { mixed { empty & n & emph* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} }
+    element ayah { mixed { empty & n & emph* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion* & contrast*} }
 # ^^^ added "empty" here, but i feel that it could be in the wrong place and isn't valid here because it isn't a specific node, moreso describing
 # what the element contains such as "mixed"
 emph = element emph { text }
@@ -28,6 +28,7 @@ allusion = element allusion {mixed { place* & name* } }
 place = element place { text }
 name = element name { text }
 rhetoricalQuestion = element rhetoricalQuestion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & emph*} }
+contrast = element contrast { text }
 device = attribute device {text} #simile, metaphor, anaphora, motif
 
  
