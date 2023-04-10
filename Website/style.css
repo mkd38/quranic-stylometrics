@@ -1,5 +1,5 @@
 body {
-    background-color: #ddc9b4
+    background-color: #C17C74
 }
 
 .container {
@@ -41,12 +41,35 @@ body {
     background-color: #fff;
     color: #333;
 }
+
+h1{font-family: "Lucida Bright", serif;
+   font-size: 50px;
+   color: #2A3D45;
+   text-align: center;
+   margin-top: 60px;
+}
+
+h2{font-family: "Lucida Bright", serif;
+   font-size: 30px;
+   color: #2A3D45;
+   text-align: center;
+}
+
+h3{font-family: "Lucida Bright", serif;
+   font-size: 20px;
+   color: #2A3D45;
+   text-align: center;
+   }
+
 p {
-    font-family: serif;
-    font-size: 50px;
+    font-family: "Lucida Bright", serif;
+    font-size: 15px;
     color: black;
-    text-align: center;
-    margin-top: 60px;
+    text-align: left;
+}
+
+span {
+    font-weight: bold;
 }
 .image-container {
     display: block;
