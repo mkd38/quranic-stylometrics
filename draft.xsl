@@ -9,27 +9,28 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="draftstyle.css"/>
+                <script type="text/javascript" src="readingview.js"/>
                 <!--you cannot have CSS style in HTML, must be in CSS stylesheet -->
                 <title><xsl:apply-templates select="//surah/metadata/title"/></title>
             </head>
             <body>
                 <!-- checkboxes for rhetorical devices -->
                 <div class="checkbox-container">
-                    <label><input type="checkbox" name="amplification"/>Amplification</label>
-                    <label><input type="checkbox" name="emph"/>Emphasis</label>
-                    <label><input type="checkbox" name="irony"/>Irony</label>
-                    <label><input type="checkbox" name="imagery"/>Imagery</label>
-                    <label><input type="checkbox" name="allusion"/>Allusion</label>
-                    <label><input type="checkbox" name="contrast"/>Contrast</label>
-                    <label><input type="checkbox" name="name"/>Name</label>
-                    <label><input type="checkbox" name="place"/>Place</label>
-                    <label><input type="checkbox" name="rhetoricalQuestion"/>Rhetorical
+                    <label><input type="checkbox" value="amplification"/>Amplification</label>
+                    <label><input type="checkbox" value="emph"/>Emphasis</label>
+                    <label><input type="checkbox" value="irony"/>Irony</label>
+                    <label><input type="checkbox" value="imagery"/>Imagery</label>
+                    <label><input type="checkbox" value="allusion"/>Allusion</label>
+                    <label><input type="checkbox" value="contrast"/>Contrast</label>
+                    <label><input type="checkbox" value="name"/>Name</label>
+                    <label><input type="checkbox" value="place"/>Place</label>
+                    <label><input type="checkbox" value="rhetoricalQuestion"/>Rhetorical
                         Question</label>
-                    <label><input type="checkbox" name="motif"/>Motif</label>
-                    <label><input type="checkbox" name="anaphora"/>Anaphora</label>
-                    <label><input type="checkbox" name="parallelism"/>Parallelism</label>
-                    <label><input type="checkbox" name="metaphor"/>Metaphor</label>
-                    <label><input type="checkbox" name="simile"/>Simile</label>
+                    <label><input type="checkbox" value="motif"/>Motif</label>
+                    <label><input type="checkbox" value="anaphora"/>Anaphora</label>
+                    <label><input type="checkbox" value="parallelism"/>Parallelism</label>
+                    <label><input type="checkbox" value="metaphor"/>Metaphor</label>
+                    <label><input type="checkbox" value="simile"/>Simile</label>
                 </div>
                 <!-- ^^^ this is solid. I would suggest you experiment with how you want this checkbox to be
                 portrayed on the site. work with CSS a bit and make sure you have these highlighted according to
