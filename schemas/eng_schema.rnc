@@ -10,10 +10,14 @@ n = attribute n { text }
 editor = element editor { text }
 translator = element translator { text }
 source = element source { text }
-body = element body { mixed { ayah+} } 
+body = element body { mixed { ayah+ & imagery*} } 
+# ^^^ added imagery to account for the empty ayah tags
+# 
 # these elements may occur in any order
 ayah =
-    element ayah { mixed {  n & emph* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} }
+    element ayah { mixed { empty & n & emph* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & rhetoricalQuestion*} }
+# ^^^ added "empty" here, but i feel that it could be in the wrong place and isn't valid here because it isn't a specific node, moreso describing
+# what the element contains such as "mixed"
 emph = element emph { text }
 comparison = element comparison { mixed {device & repetition*} }  
 repetition = element repetition { mixed {device & ayah* & emph*} } 
