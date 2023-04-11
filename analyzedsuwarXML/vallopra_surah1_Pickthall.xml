@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
         <title n="1">Surah 1 The Opener Al-Fatiha</title>
-        <editor>Muhammad Marmaduke Pickthall</editor>
-        <translator>Muhammad Marmaduke Pickthall</translator>
+        <editor>Muhammad M. Pickthall</editor>
+        <translator>Muhammad M. Pickthall</translator>
         <source/>
     </metadata>
     <body>
-        <ayah n="1"> In the name of Allah, <amplification>the Beneficent</amplification>, <amplification>the Merciful</amplification>. </ayah>
-        <ayah n="2"> <amplification>Praise be to Allah</amplification>, <amplification>Lord of the Worlds</amplification>, </ayah>
+        <ayah n="1"> In the name of Allah, <amplification>the Beneficent</amplification>,
+                <amplification>the Merciful</amplification>. </ayah>
+        <ayah n="2">
+            <amplification>Praise be to Allah</amplification>, <amplification>Lord of the
+                Worlds</amplification>, </ayah>
         <ayah n="3">
             <amplification>The Beneficent</amplification>, <amplification>the
                 Merciful</amplification>. </ayah>
         <ayah n="4">
             <amplification>Master of the Day of Judgment</amplification>, </ayah>
-        <ayah n="5"><repetition device="parallelism"> Thee (alone) we worship; Thee (alone) we ask for help.</repetition> </ayah>
+        <ayah n="5"><repetition device="parallelism"> Thee (alone) we worship; Thee (alone) we ask
+                for help.</repetition>
+        </ayah>
         <ayah n="6"> Show us the straight path, </ayah>
         <ayah n="7"> The path of those whom Thou hast favoured; Not the (path) of those who earn
             Thine anger nor of those who go astray. </ayah>

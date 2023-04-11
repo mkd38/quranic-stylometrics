@@ -4,7 +4,7 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0">
     <xsl:variable name="surahs" as="document-node()+"
-        select="collection('analyzedsuwarXML?select=*.xml')"/>
+        select="collection('../analyzedsuwarXML?select=*.xml')"/>
     <xsl:template name="xsl:initial-template">
         <xsl:for-each-group select="$surahs" group-by="descendant::metadata/title/@n">
             <xsl:result-document href="surah_{format-integer(current-grouping-key(), '00')}.xhtml"
@@ -12,8 +12,8 @@
                 indent="yes">
                 <html>
                     <head>
-                        <link rel="stylesheet" type="text/css" href="Website/style.css"/>
-                        <link rel="stylesheet" type="text/css" href="Website/readingview.css"/>
+                        <link rel="stylesheet" type="text/css" href="../Website/style.css"/>
+                        <link rel="stylesheet" type="text/css" href="../Website/readingview.css"/>
                         <!--you cannot have CSS style in HTML, must be in CSS stylesheet -->
                         <title>
                             <xsl:text>Surah </xsl:text>

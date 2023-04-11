@@ -20,10 +20,12 @@ ayah =
 # what the element contains such as "mixed"
 emph = element emph { text }
 comparison = element comparison { mixed {device & repetition*} }  
-repetition = element repetition { mixed {device & ayah* & emph*} } 
+repetition = element repetition { mixed {rn* & device & ayah* & emph*} } 
+rn = attribute rn {text}
 irony = element irony {  mixed { ayah* & emph*} }
 amplification = element amplification { mixed {emph*} }
-imagery = element imagery {mixed { amplification* & ayah* & comparison* & repetition* & name* & emph*} }
+imagery = element imagery {mixed { in* & amplification* & ayah* & comparison* & repetition* & name* & emph*} }
+in = attribute in {text}
 allusion = element allusion {mixed { place* & name* } }
 place = element place { text }
 name = element name { text }
