@@ -9,3 +9,6 @@ main {
     z-index: 1;
     background-color: white;
 }
+div:lang(ar) {
+    direction: rtl;
+}
