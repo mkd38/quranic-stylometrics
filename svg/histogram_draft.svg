@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     height="450"
+     width="140"
+     viewBox="-75 -325 140 450">
+   <line x1="0"
+         x2="40"
+         y1="0"
+         y2="0"
+         stroke="black"
+         stroke-width="1"
+         stroke-linecap="square"/>
+   <line x1="0"
+         x2="0"
+         y1="0"
+         y2="-300"
+         stroke="black"
+         stroke-width="1"
+         stroke-linecap="square"/>
+   <text x="20" y="45" text-anchor="middle" font-size="x-large">Device</text>
+   <text x="-50"
+         y="-150"
+         text-anchor="middle"
+         writing-mode="tb"
+         font-size="x-large">Raw Count</text>
+   <text x="20" y="90" text-anchor="middle" font-size="xx-large">Instances of Rhetorical Devices</text>
+   <text x="-5" y="5" text-anchor="end">0</text>
+   <text x="-5" y="-75" text-anchor="end">25</text>
+   <line x1="0"
+         x2="40"
+         y1="-75"
+         y2="-75"
+         stroke="lightgray"
+         stroke-width="1"
+         stroke-dasharray="8 4"/>
+   <text x="-5" y="-150" text-anchor="end">50</text>
+   <line x1="0"
+         x2="40"
+         y1="-150"
+         y2="-150"
+         stroke="lightgray"
+         stroke-width="1"
+         stroke-dasharray="8 4"/>
+   <text x="-5" y="-225" text-anchor="end">75</text>
+   <line x1="0"
+         x2="40"
+         y1="-225"
+         y2="-225"
+         stroke="lightgray"
+         stroke-width="1"
+         stroke-dasharray="8 4"/>
+   <text x="-5" y="-300" text-anchor="end">100</text>
+   <line x1="0"
+         x2="40"
+         y1="-300"
+         y2="-300"
+         stroke="lightgray"
+         stroke-width="1"
+         stroke-dasharray="8 4"/>
+   <rect x="10" y="-36" width="20" height="36" fill="blue"/>
+   <text x="13" y="-36">12</text>
+   <text x="10" y="15">12</text>
+</svg>
