@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <surah>
     <metadata>
         <title n="17">Surah 17 The Night Journey Al-Isrā</title>
@@ -78,9 +75,9 @@
             - <repetition device="anaphora">such things as We will, to such person as We
                 will</repetition>: in the end have We provided Hell for them: they will burn
             therein, <repetition device="motif">disgraced and rejected</repetition>.</ayah>
-        <ayah n="19"> Those who do wish for the (things of) the Hereafter, and <repetition device="anaphora">strive
-                therefore with all due striving,</repetition> and have Faith,- they are the ones whose
-            striving is acceptable (to Allah).</ayah>
+        <ayah n="19"> Those who do wish for the (things of) the Hereafter, and <repetition
+                device="anaphora">strive therefore with all due striving,</repetition> and have
+            Faith,- they are the ones whose striving is acceptable (to Allah).</ayah>
         <ayah n="20"> Of the bounties of thy Lord We bestow freely on all- These as well as those:
             The bounties of thy Lord are not closed (to anyone).</ayah>
         <ayah n="21"> See how We have bestowed more on some than on others; but <emph>verily</emph>
@@ -128,9 +125,9 @@
             <repetition device="anaphora">Give full measure when ye measure</repetition>, and weigh
             with a balance that is straight: that is the most fitting and the most advantageous in
             the final determination.</ayah>
-        <ayah n="36"> And pursue not that of which thou hast no knowledge; <repetition device="motif"
-                >for every act of hearing, or of seeing or of (feeling in) the heart</repetition>
-            will be enquired into (on the Day of Reckoning).</ayah>
+        <ayah n="36"> And pursue not that of which thou hast no knowledge; <repetition
+                device="motif">for every act of hearing, or of seeing or of (feeling in) the
+                heart</repetition> will be enquired into (on the Day of Reckoning).</ayah>
         <ayah n="37"> Nor walk on the earth with insolence: for thou canst not rend the earth
             asunder, nor reach the mountains in height.</ayah>
         <ayah n="38"> Of all such things the evil is hateful in the sight of thy Lord.</ayah>
@@ -321,9 +318,9 @@
             shall gather, them together, prone on their faces, blind, dumb, and deaf: their abode
             will be Hell: every time it shows abatement, We shall increase from them the fierceness
             of the Fire.</ayah>
-        <ayah n="98"> That is their recompense, because they rejected Our signs, and said, "When we are <comparison device="metaphor">reduced to
-                    bones and broken dust</comparison>, should we really be raised up (to be) a new
-                Creation?"</ayah>
+        <ayah n="98"> That is their recompense, because they rejected Our signs, and said, "When we
+            are <comparison device="metaphor">reduced to bones and broken dust</comparison>, should
+            we really be raised up (to be) a new Creation?"</ayah>
         <ayah n="99"> See they not that Allah, Who created the heavens and the earth, has power to
             create the like of them (anew)? Only He has decreed a term appointed, of which there is
             no doubt. But the unjust refuse (to receive it) except with ingratitude.</ayah>

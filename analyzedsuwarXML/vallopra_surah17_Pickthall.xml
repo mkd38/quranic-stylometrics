@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
-        <title n="1">Surah 1 The Opener Al-Fatiha</title>
-        <editor>Muhammad Marmaduke Pickthall</editor>
-        <translator>Muhammad Marmaduke Pickthall</translator>
+        <title n="17">Surah 17 The Night Journey Al-Isrā</title>
+        <editor>Muhammad M. Pickthall</editor>
+        <translator>Muhammad M. Pickthall</translator>
         <source/>
     </metadata>
     <body>
