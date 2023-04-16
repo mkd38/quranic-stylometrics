@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
@@ -9,30 +7,30 @@
         <translator>Abdullah Yusuf Ali</translator>
         <source>http://www.perseus.tufts.edu/hopper/</source>
     </metadata>
-    <body>
+    <body xml:lang="en">
         <ayah n="1">A.L.M.R. These are the signs (or verses) of the Book: that which hath been
-            revealed unto thee from thy Lord is the <repetition device="motif">Truth</repetition>; but
-            most men believe not.</ayah>
+            revealed unto thee from thy Lord is the <repetition device="motif">Truth</repetition>;
+            but most men believe not.</ayah>
         <ayah n="2">Allah <repetition device="anaphora">is He Who</repetition> raised the heavens
             without any pillars that ye can see; is firmly established on the throne (of authority);
             He has subjected the sun and the moon (to his Law)<emph>!</emph> Each one runs (its
             course) for a term appointed. He doth regulate all affairs, explaining the signs in
             detail, that ye may believe with certainty in the meeting with your Lord.</ayah>
         <ayah n="3"><imagery>And it <repetition device="anaphora">is He who</repetition> spread out
-            the earth, and set thereon mountains standing firm and (flowing) rivers: and fruit
-            of every kind He made in pairs, two and two: He draweth the night as a veil o'er the
-            Day.</imagery> Behold, <emph>verily</emph> in these things there are signs for those
+                the earth, and set thereon mountains standing firm and (flowing) rivers: and fruit
+                of every kind He made in pairs, two and two: He draweth the night as a veil o'er the
+                Day.</imagery> Behold, <emph>verily</emph> in these things there are signs for those
             who consider<emph>!</emph></ayah>
         <ayah n="4"><imagery>And in the earth are tracts (diverse though) neighbouring, and gardens
-            of vines and fields sown with corn, and palm trees - growing out of single roots or
-            otherwise: watered with the same water,</imagery> yet some of them We make more
+                of vines and fields sown with corn, and palm trees - growing out of single roots or
+                otherwise: watered with the same water,</imagery> yet some of them We make more
             excellent than others to eat. Behold, <emph>verily</emph> in these things there are
             signs for those who understand<emph>!</emph></ayah>
         <ayah n="5">If thou dost marvel (at their want of faith), strange is their saying: "When we
             are (actually) dust, shall we <emph>indeed</emph> then be in a creation renewed?" They
             are those who deny their Lord<emph>!</emph> They are those round whose necks will be
             yokes (of servitude): they will be Companions of the Fire, to dwell therein (for
-            aye)<emph>!</emph></ayah>
+                aye)<emph>!</emph></ayah>
         <ayah n="6">They ask thee to hasten on the evil in preference to the good: Yet have come to
             pass, before them, (many) exemplary punishments<emph>!</emph>
             <repetition device="parallelism">But <emph>verily</emph> thy Lord is full of forgiveness
@@ -44,7 +42,7 @@
             short (of their time or nber) or do exceed. Every single thing is before His sight, in
             (due) proportion.</ayah>
         <ayah n="9">He knoweth the unseen and that which is open: He is <amplification>the
-            Great</amplification>, <amplification>the Most High</amplification>.</ayah>
+                Great</amplification>, <amplification>the Most High</amplification>.</ayah>
         <ayah n="10">It is the same (to Him) whether any of you conceal his speech or declare it
             openly; whether he lie hid by night or walk forth freely by day.</ayah>
         <ayah n="11">For each (such person) there are (angels) in succession, before and behind him:
@@ -56,11 +54,11 @@
                 doth</repetition> raise up the clouds, heavy with (fertilising)
             rain<emph>!</emph></ayah>
         <ayah n="13"><imagery>Nay, thunder repeateth His praises, and so do the angels, with awe: He
-            flingeth the loud-voiced thunder-bolts</imagery>, and therewith He striketh
+                flingeth the loud-voiced thunder-bolts</imagery>, and therewith He striketh
             whomsoever He will..yet these (are the men) who (dare to) dispute about Allah, with the
             strength of His power (supreme)<emph>!</emph></ayah>
         <ayah n="14">For Him (alone) is prayer in <repetition device="motif">Truth</repetition>:
-            <imagery>any others that they call upon besides Him hear them no more than if they
+                <imagery>any others that they call upon besides Him hear them no more than if they
                 were to stretch forth their hands for water to reach their mouths but it reaches
                 them not</imagery>: for the prayer of those without Faith is nothing but (futile)
             wandering (in the mind).</ayah>
@@ -68,7 +66,7 @@
             to Allah (Acknowledging subjection),- with good-will or in spite of themselves: so do
             their shadows in the morning and evenings.</ayah>
         <ayah n="16">Say: "Who is <amplification>the Lord and Sustainer of the heavens and the
-            earth</amplification>?" Say: "(It is) Allah." Say: "Do ye then take (for worship)
+                earth</amplification>?" Say: "(It is) Allah." Say: "Do ye then take (for worship)
             protectors other than Him, such as have no power either for good or for harm to
             themselves?" Say: <rhetoricalQuestion>"Are the blind equal with those who
                 see?</rhetoricalQuestion>
@@ -76,11 +74,11 @@
             <rhetoricalQuestion>Or do they assign to Allah partners who have created (anything) as
                 He has created, so that the creation seemed to them similar?</rhetoricalQuestion>
             Say: "Allah is <amplification>the Creator of all things</amplification>: He is
-            <amplification>the One</amplification>, <amplification>the Supreme and
+                <amplification>the One</amplification>, <amplification>the Supreme and
                 Irresistible</amplification>."</ayah>
         <ayah n="17"><imagery>He sends down water from the skies, and the channels flow, each
-            according to its measure: But the torrent bears away to foam that mounts up to the
-            surface.</imagery> Even so, from that (ore) which they heat in the fire, to make
+                according to its measure: But the torrent bears away to foam that mounts up to the
+                surface.</imagery> Even so, from that (ore) which they heat in the fire, to make
             ornaments or utensils therewith, there is a scum likewise. Thus doth Allah (by parables)
             show forth <repetition device="motif">Truth</repetition> and Vanity. <comparison
                 device="simile">For the scum disappears like forth cast out;</comparison> while that
@@ -91,9 +89,9 @@
             much more, (in vain) would they offer it for ransom. For them will the reckoning be
             terrible: their abode will be Hell,- what a bed of misery<emph>!</emph></ayah>
         <ayah n="19"><comparison device="simile">Is then one who doth know that that which hath been
-            revealed unto thee from thy Lord is the <repetition device="motif">Truth</repetition>,
-            like one who is blind?</comparison> It is those who are endued with understanding
-            that receive admonition;- </ayah>
+                revealed unto thee from thy Lord is the <repetition device="motif"
+                    >Truth</repetition>, like one who is blind?</comparison> It is those who are
+            endued with understanding that receive admonition;- </ayah>
         <ayah n="20">Those who fulfil the covenant of Allah and fail not in their plighted
             word;</ayah>
         <ayah n="21">Those who join together those things which Allah hath commanded to be joined,
@@ -118,8 +116,8 @@
             "Truly Allah leaveth, to stray, whom He will; But He guideth to Himself those who turn
             to Him in penitence,-</ayah>
         <ayah n="28"><repetition device="parallelism">Those who believe, and whose hearts find
-            satisfaction in the remembrance of Allah: for without doubt in the remembrance of
-            Allah do hearts find satisfaction.</repetition></ayah>
+                satisfaction in the remembrance of Allah: for without doubt in the remembrance of
+                Allah do hearts find satisfaction.</repetition></ayah>
         <ayah n="29">"For those who believe and work righteousness, is (every) blessedness, and a
             beautiful place of (final) return."</ayah>
         <ayah n="30">Thus have we sent thee amongst a People before whom (long since) have (other)
@@ -133,21 +131,20 @@
             know, that, had Allah (so) willed, He could have guided all mankind (to the right)? But
             the Unbelievers,- never will disaster cease to seize them for their (ill) deeds, or to
             settle close to their homes, until the promise of Allah come to pass, for,
-            <emph>verily</emph>, Allah will not fail in His promise.</ayah>
+                <emph>verily</emph>, Allah will not fail in His promise.</ayah>
         <ayah n="32">Mocked were (many) messengers before thee: but I granted respite to the
             unbelievers, and finally I punished them: Then how (terrible) was my
-            requital<emph>!</emph></ayah>
+                requital<emph>!</emph></ayah>
         <ayah n="33">Is then He who standeth over every soul (and knoweth) all that it doth, (like
-            any others)? And yet they ascribe partners to Allah. Say:
-            <rhetoricalQuestion>"But name them<emph>!</emph> is it that ye will inform Him of
-                something he knoweth not on earth, or is it (just) a show of
-                words?"</rhetoricalQuestion>
+            any others)? And yet they ascribe partners to Allah. Say: <rhetoricalQuestion>"But name
+                    them<emph>!</emph> is it that ye will inform Him of something he knoweth not on
+                earth, or is it (just) a show of words?"</rhetoricalQuestion>
             <emph>Nay!</emph> to those who believe not, their pretence seems pleasing, but they are
             kept back (thereby) from the path. And those whom Allah leaves to stray, no one can
             guide.</ayah>
-        <ayah n="34"><repetition device="parallelism">For them is a penalty in the life of this world,
-            but harder, truly, is the penalty of the Hereafter:</repetition> and defender have
-            they none against Allah.</ayah>
+        <ayah n="34"><repetition device="parallelism">For them is a penalty in the life of this
+                world, but harder, truly, is the penalty of the Hereafter:</repetition> and defender
+            have they none against Allah.</ayah>
         <ayah n="35">The parable of the Garden which the righteous are promised<emph>!</emph>-
             beneath it flow rivers: perpetual is the enjoyment thereof and the shade therein: such
             is the end of the Righteous; and the end of Unbelievers in the Fire.</ayah>
@@ -155,7 +152,7 @@
             thee: but there are among the clans those who reject a part thereof. Say: "I am
             commanded to worship Allah, and not to join partners with Him. <repetition
                 device="parallelism">Unto Him do I call, and unto Him is my
-                return.</repetition>"</ayah>
+            return.</repetition>"</ayah>
         <ayah n="37">Thus have We revealed it to be a judgment of authority in Arabic. Wert thou to
             follow their (vain) desires after the knowledge which hath reached thee, then wouldst
             thou find neither protector nor defender against Allah.</ayah>

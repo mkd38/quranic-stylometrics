@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <surah>
     <metadata>
@@ -9,12 +7,17 @@
         <source>http://www.perseus.tufts.edu/hopper/text?doc=1&amp;fromdoc=Perseus%3Atext%3A2002.02.0006</source>
     </metadata>
     <body>
-        <ayah n="1"><amplification>الرَّحْمَٰن</amplification>ِ<amplification> الرَّحِيمِ</amplification><amplification>بِسْمِ اللَّهِ</amplification></ayah>
-        <ayah n="2"><amplification>الْحَمْدُ لِلَّهِ</amplification> <amplification>رَبِّ الْعَالَمِينَ</amplification></ayah>
-        <ayah n="3"><amplification>الرَّحْمَٰنِ</amplification> <amplification>الرَّحِيمِ</amplification></ayah>
+        <ayah n="1"><amplification>الرَّحْمَٰن</amplification>ِ<amplification>
+                الرَّحِيمِ</amplification><amplification>بِسْمِ اللَّهِ</amplification></ayah>
+        <ayah n="2"><amplification>الْحَمْدُ لِلَّهِ</amplification>
+            <amplification>رَبِّ الْعَالَمِينَ</amplification></ayah>
+        <ayah n="3"><amplification>الرَّحْمَٰنِ</amplification>
+            <amplification>الرَّحِيمِ</amplification></ayah>
         <ayah n="4"><amplification>مَالِكِ يَوْمِ الدِّينِ</amplification></ayah>
-        <ayah n="5"><repetition device="anaphora">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</repetition></ayah>
+        <ayah n="5"><repetition device="anaphora">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ
+                نَسْتَعِينُ</repetition></ayah>
         <ayah n="6">اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ</ayah>
-        <ayah n="7">صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</ayah>
+        <ayah n="7">صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا
+            الضَّالِّينَ</ayah>
     </body>
-</surah> 
+</surah>

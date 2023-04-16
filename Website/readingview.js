@@ -1,13 +1,16 @@
+"use strict";
 function init() {
-    //loadBackground = document.body.style.background-color
-    var boxes = document.getElementsByTagName('input')
-    for (var i = 0; i < boxes.length; i++) {
+    var boxes = document.getElementsByTagName('input');
+    for (var i = 0, l = boxes.length; i < l; i++) {
         boxes[i].addEventListener('click', toggleHighlight, false);
     }
 }
 function toggleHighlight() {
-    var device = this.value;
-    switch (device) {
+    var device = this.id;
+    var thingstotoggle = document.querySelectorAll('.' + device);
+    console.log('.' + device);
+    console.log(thingstotoggle);
+    /* switch (device) {
         case 'amplification': {
             var amplification = document.querySelectorAll('.amplification');
             for (var i = 0; i < amplification.length; i++) {
@@ -106,6 +109,6 @@ function toggleHighlight() {
             };
         };
         break;
-    }
+    }*/
 }
-window.onload = init;
+window.addEventListener('DOMContentLoaded',init);

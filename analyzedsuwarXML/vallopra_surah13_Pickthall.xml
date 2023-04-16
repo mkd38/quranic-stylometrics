@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../schemas/eng_schema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <surah>
     <metadata>
         <title n="13">Surah 13 The Thunder Ar-Rad</title>
-        <editor>Muhammad Marmaduke Pickthall</editor>
-        <translator>Muhammad Marmaduke Pickthall</translator>
+        <editor>Muhammad M. Pickthall</editor>
+        <translator>Muhammad M. Pickthall</translator>
         <source/>
     </metadata>
-    <body>
+    <body xml:lang = "en">
         <ayah n="1"> Alif. Lam. Mim. Ra. These are verses of the Scripture. That which is revealed
             unto thee from thy Lord is the Truth, but most of mankind believe not. </ayah>
         <ayah n="2"> Allah it is Who raised up the heavens without visible supports, then mounted
@@ -27,10 +25,10 @@
             people who have sense. </ayah>
         <ayah n="5">
             <repetition device="anaphora">And if thou wonderest, then wondrous is their
-                saying</repetition>: When <comparison device="metaphor">we are dust</comparison>, are
-            we then forsooth (to be raised) in a new creation? Such are they who disbelieve in their
-            Lord; <imagery>such have carcans on their necks</imagery>; such are rightful owners of
-            the Fire, they will abide therein. </ayah>
+                saying</repetition>: When <comparison device="metaphor">we are dust</comparison>,
+            are we then forsooth (to be raised) in a new creation? Such are they who disbelieve in
+            their Lord; <imagery>such have carcans on their necks</imagery>; such are rightful
+            owners of the Fire, they will abide therein. </ayah>
         <ayah n="6"> And they bid thee hasten on the evil rather than the good, when exemplary
             punishments have indeed occurred before them. But <emph>lo!</emph>
             <repetition device="parallelism">thy Lord is rich in pardon for mankind despite their
