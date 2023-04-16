@@ -116,7 +116,7 @@ img {
     height: auto;
 }
 
-#index .index, #about .about, #methods .methods, #texts .texts #conclusion .conclusions {
+#index .index, #about .about, #methods .methods, #texts .texts, #conclusion .conclusions {
     background-color: yellow
 }
 
