@@ -48,8 +48,13 @@ body {
     border-style: ridge ; 
 }
 
-#index .index, #about .about, #methods .methods, #texts .texts, #conclusion .conclusions {
+.index .index, .about .about, .methods .methods, .texts .texts, .conclusion .conclusions {
     background-color: yellow
+}
+
+.navbar-links a:active {
+  background-color: yellow;
+  color: #333;
 }
 
 h1{font-family: "Lucida Bright", serif;
@@ -116,9 +121,7 @@ img {
     height: auto;
 }
 
-#index .index, #about .about, #methods .methods, #texts .texts, #conclusion .conclusions {
-    background-color: yellow
-}
+
 
 
 
