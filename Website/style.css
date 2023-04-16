@@ -46,11 +46,11 @@ body {
     background-color: #DDC9B4;
     border: 1px ;
     border-style: ridge ; 
-    
-    
-    
 }
 
+#index .index, #about .about, #methods .methods, #texts .texts, #conclusion .conclusions {
+    background-color: yellow
+}
 
 h1{font-family: "Lucida Bright", serif;
    font-size: 50px;
