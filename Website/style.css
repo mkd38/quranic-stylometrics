@@ -1,5 +1,7 @@
 body {
     background-color: #C17C74
+    ;margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -49,7 +51,7 @@ body {
 }
 
 #index .index, #about .about, #methods .methods, #texts .texts, #onclusion .conclusions {
-    background-color: yellow
+    background-color: #C17C74
 }
 
 
