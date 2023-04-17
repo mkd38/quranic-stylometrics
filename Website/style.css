@@ -48,14 +48,10 @@ body {
     border-style: ridge ; 
 }
 
-.index .index, .about .about, .methods .methods, .texts .texts, .conclusion .conclusions {
+#index .index, #about .about, #methods .methods, #texts .texts, #onclusion .conclusions {
     background-color: yellow
 }
 
-.navbar-links a:active {
-  background-color: yellow;
-  color: #333;
-}
 
 h1{font-family: "Lucida Bright", serif;
    font-size: 50px;
