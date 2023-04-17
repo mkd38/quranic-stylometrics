@@ -24,9 +24,9 @@
                     <body>
                         <!-- checkboxes for rhetorical devices -->
                         <div class="checkbox-container">
-                            <label><input type="checkbox" name="amplification"
+                            <label><input type="checkbox" id="amplification"
                                 />Amplification</label>
-                            <label><input type="checkbox" id="emph"/>Emphasis</label>
+                            <label class="emph"><input type="checkbox" id="emph"/>Emphasis</label>
                             <label><input type="checkbox" id="irony"/>Irony</label>
                             <label><input type="checkbox" id="imagery"/>Imagery</label>
                             <label><input type="checkbox" id="allusion"/>Allusion</label>
@@ -55,7 +55,7 @@
                                         <xsl:text>(</xsl:text>
                                         <xsl:value-of select="current-grouping-key()"/>
                                         <xsl:text>) </xsl:text>
-                                        <xsl:value-of select="."/>
+                                        <xsl:apply-templates select="."/>
                                     </div>
                                 </xsl:for-each>
                             </xsl:for-each-group>
@@ -66,111 +66,74 @@
             </xsl:result-document>
         </xsl:for-each-group>
     </xsl:template>
-    <xsl:template match="surah">
-        <h1>
-            <xsl:value-of select="metadata/title"/>
-        </h1>
-        <p>
-            <span>Editor:</span>
-            <xsl:value-of select="metadata/editor"/>
-        </p>
-        <p>
-            <span>Translator:</span>
-            <xsl:value-of select="metadata/translator"/>
-        </p>
-        <p>
-            <span>Source:</span>
-            <a href="{metadata/source}">
-                <xsl:value-of select="metadata/source"/>
-            </a>
-        </p>
-
-        <!--<table>
-            <tr>
-                <th>Ayah</th>
-                <th>Text</th>
-            </tr>
-            <xsl:for-each select="body/ayah">
-                <tr>
-                    <td>
-                        <xsl:value-of select="@n"/>
-                    </td>
-                    <td>
-                        <xsl:apply-templates/>
-                    </td>
-                </tr>
-            </xsl:for-each>
-        </table>
--->
-    </xsl:template>
     <!-- ^^ we should use grid for this instead of table -->
     <xsl:template match="amplification">
-        <span class="amplification highlightable">
+        <span class="amplification">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="emph">
-        <span class="emph highlightable">
+        <span class="emph">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="irony">
-        <span class="irony highlightable">
+        <span class="irony">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="imagery">
-        <span class="imagery highlightable">
+        <span class="imagery">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="allusion">
-        <span class="allusion highlightable">
+        <span class="allusion">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="contrast">
-        <span class="contrast highlightable">
+        <span class="contrast">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="name">
-        <span class="name highlightable">
+        <span class="name">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="place">
-        <span class="place highlightable">
+        <span class="place">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="rhetoricalQuestion">
-        <span class="rhetoricalQuestion highlightable">
+        <span class="rhetoricalQuestion">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="repetition[@type = 'motif']">
-        <span class="motif highlightable">
+        <span class="motif">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="repetition[@type = 'anaphora']">
-        <span class="anaphora highlightable">
+        <span class="anaphora">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="repetition[@type = 'parallelism']">
-        <span class="parallelism highlightable">
+        <span class="parallelism">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="comparison[@type = 'metaphor']">
-        <span class="metaphor highlightable">
+        <span class="metaphor">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="comparison[@type = 'simile']">
-        <span class="simile highlightable">
+        <span class="simile">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

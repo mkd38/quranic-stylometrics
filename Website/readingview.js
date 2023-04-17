@@ -10,6 +10,9 @@ function toggleHighlight() {
     var thingstotoggle = document.querySelectorAll('.' + device);
     console.log('.' + device);
     console.log(thingstotoggle);
+    for (var i = 0, len = thingstotoggle.length; i < len; i++) { 
+        thingstotoggle[i].classList.toggle("highlighted");
+    }
     /* switch (device) {
         case 'amplification': {
             var amplification = document.querySelectorAll('.amplification');
