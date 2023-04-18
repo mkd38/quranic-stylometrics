@@ -7,16 +7,7 @@
         <translator>Abdullah Yusuf Ali</translator>
         <source>http://www.perseus.tufts.edu/hopper/</source>
     </metadata>
-    <body>
-        <ayah n="1"> In the name of Allah,<amplification>Most Gracious</amplification>,
-                <amplification>Most Merciful.</amplification></ayah>
-        <ayah n="2">
-            <amplification>Praise be to Allah, </amplification><amplification>the
-                Cherisher</amplification> and <amplification>Sustainer of the
-            worlds</amplification>;</ayah>
-        <ayah n="3">
-            <amplification>Most Gracious</amplification>, <amplification>Most
-                Merciful</amplification>; </ayah>
+    <body xml:lang="en">
         <ayah n="1"> In the name of Allah, <amplification>Most Gracious</amplification>,
                 <amplification>Most Merciful.</amplification></ayah>
         <ayah n="2"> Praise be to Allah, <amplification>the Cherisher</amplification> and
