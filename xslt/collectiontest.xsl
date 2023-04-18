@@ -41,6 +41,11 @@
                             <label class="metaphor"><input type="checkbox" id="metaphor"/>Metaphor</label>
                             <label class="simile"><input type="checkbox" id="simile"/>Simile</label>
                         </div>
+                        <div>
+                            <p>This Surah Has:</p>
+                            <p><xsl:apply-templates select="ayah" mode="guide"/>
+                            </p>
+                        </div>
                         <!-- ^^^ this is solid. I would suggest you experiment with how you want this checkbox to be
                 portrayed on the site. work with CSS a bit and make sure you have these highlighted according to
                 what color they are in  the text. Also, think about trying to get the checkbox to "stick" as one scrolls 
@@ -67,6 +72,14 @@
         </xsl:for-each-group>
     </xsl:template>
     <!-- ^^ we should use grid for this instead of table -->
+    <xsl:template match="ayah" mode="guide">
+        <xsl:apply-templates select="//*/name() =>distinct-values()"/>
+        <xsl:text> ,</xsl:text>
+        <xsl:if test="//*/name() eq repetition or comparison">
+            <xsl:value-of select="@device"/>
+            <xsl:text> ,</xsl:text>
+        </xsl:if>
+    </xsl:template>
     <xsl:template match="amplification">
         <span class="amplification">
             <xsl:apply-templates/>
@@ -112,28 +125,33 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="repetition[@type = 'motif']">
+    <xsl:template match="repetition[@device = 'motif']">
         <span class="motif">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="repetition[@type = 'anaphora']">
+    <xsl:template match="repetition[@device = 'anaphora']">
         <span class="anaphora">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="repetition[@type = 'parallelism']">
+    <xsl:template match="repetition[@device = 'parallelism']">
         <span class="parallelism">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="comparison[@type = 'metaphor']">
+    <xsl:template match="comparison[@device = 'metaphor']">
         <span class="metaphor">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="comparison[@type = 'simile']">
+    <xsl:template match="comparison[@device = 'simile']">
         <span class="simile">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="comparison[@device = 'contrast']">
+        <span class="contrast">
             <xsl:apply-templates/>
         </span>
     </xsl:template>

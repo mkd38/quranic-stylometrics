@@ -31,6 +31,6 @@ allusion = element allusion {mixed { place* & name* } }
 place = element place { text }
 name = element name { text }
 rhetoricalQuestion = element rhetoricalQuestion {mixed {ayah* & comparison* & imagery* & repetition* & amplification* & allusion* & irony* & place* & name* & emph*} }
-device = attribute device {'simile' | 'metaphor' | 'anaphora' | 'motif' | 'parallelism' | 'contrast' | 'motif' | 'metaphor'} #simile, metaphor, anaphora, motif, parallelism, contrast, motif, metaphor
+device = attribute device {'simile' | 'metaphor' | 'anaphora' | 'motif' | 'parallelism' | 'contrast' | 'motif'}
 
  

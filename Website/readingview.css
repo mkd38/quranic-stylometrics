@@ -68,6 +68,9 @@ div:lang(ar) {
 .simile.highlighted {
   background-color: silver;
 }
+.contrast.highlighted {
+  background-color:maroon;
+}
 
 
 
