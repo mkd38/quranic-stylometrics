@@ -7,7 +7,7 @@
         select="collection('../analyzedsuwarXML?select=*.xml')"/>
     <xsl:template name="xsl:initial-template">
         <xsl:for-each-group select="$surahs" group-by="descendant::metadata/title/@n">
-            <xsl:result-document href="surah_{format-integer(current-grouping-key(), '00')}.xhtml"
+            <xsl:result-document href="../Website/surah_{format-integer(current-grouping-key(), '00')}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
                 <html>
