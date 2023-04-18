@@ -126,16 +126,22 @@ img {
     height: auto;
 }
 
-.author.ali:hover {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/8/8c/Abdullah_Yusuf_Ali_1911.jpg);
-  background-position: center;
-  background-size: 50px 100px;
+.author.ali:hover img {
+display: block;
 }
 
-.author.pickthall:hover {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/71/Marmaduke_Pickthall_Portrait.jpg);
-  background-position: center;
-  background-size: 50px 100px;
+.author.pickthall:hover img {
+display: block;
+}
+
+.author img {
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 100%;
+height: auto;
 }
 
 
