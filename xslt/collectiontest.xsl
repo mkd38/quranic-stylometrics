@@ -14,6 +14,7 @@
                     <head>
                         <link rel="stylesheet" type="text/css" href="../Website/style.css"/>
                         <link rel="stylesheet" type="text/css" href="../Website/readingview.css"/>
+                        <script type="application/javascript" src="../Website/readingview.js"></script>
                         <!--you cannot have CSS style in HTML, must be in CSS stylesheet -->
                         <title>
                             <xsl:text>Surah </xsl:text>
@@ -25,20 +26,20 @@
                         <div class="checkbox-container">
                             <label><input type="checkbox" name="amplification"
                                 />Amplification</label>
-                            <label><input type="checkbox" name="emph"/>Emphasis</label>
-                            <label><input type="checkbox" name="irony"/>Irony</label>
-                            <label><input type="checkbox" name="imagery"/>Imagery</label>
-                            <label><input type="checkbox" name="allusion"/>Allusion</label>
-                            <label><input type="checkbox" name="contrast"/>Contrast</label>
-                            <label><input type="checkbox" name="name"/>Name</label>
-                            <label><input type="checkbox" name="place"/>Place</label>
-                            <label><input type="checkbox" name="rhetoricalQuestion"/>Rhetorical
+                            <label><input type="checkbox" id="emph"/>Emphasis</label>
+                            <label><input type="checkbox" id="irony"/>Irony</label>
+                            <label><input type="checkbox" id="imagery"/>Imagery</label>
+                            <label><input type="checkbox" id="allusion"/>Allusion</label>
+                            <label><input type="checkbox" id="contrast"/>Contrast</label>
+                            <label><input type="checkbox" id="name"/>Name</label>
+                            <label><input type="checkbox" id="place"/>Place</label>
+                            <label><input type="checkbox" id="rhetoricalQuestion"/>Rhetorical
                                 Question</label>
-                            <label><input type="checkbox" name="motif"/>Motif</label>
-                            <label><input type="checkbox" name="anaphora"/>Anaphora</label>
-                            <label><input type="checkbox" name="parallelism"/>Parallelism</label>
-                            <label><input type="checkbox" name="metaphor"/>Metaphor</label>
-                            <label><input type="checkbox" name="simile"/>Simile</label>
+                            <label><input type="checkbox" id="motif"/>Motif</label>
+                            <label><input type="checkbox" id="anaphora"/>Anaphora</label>
+                            <label><input type="checkbox" id="parallelism"/>Parallelism</label>
+                            <label><input type="checkbox" id="metaphor"/>Metaphor</label>
+                            <label><input type="checkbox" id="simile"/>Simile</label>
                         </div>
                         <!-- ^^^ this is solid. I would suggest you experiment with how you want this checkbox to be
                 portrayed on the site. work with CSS a bit and make sure you have these highlighted according to
@@ -48,7 +49,9 @@
                             <xsl:for-each-group select="current-group()//ayah" group-by="@n">
                                 <xsl:sort select="current-grouping-key()" data-type="number"/>
                                 <xsl:for-each select="current-group()">
-                                    <div>
+                                    <xsl:sort select="ancestor::body/@xml:lang"/> 
+                                    <xsl:sort select="ancestor::surah/metadata/translator"/>                                    
+                                    <div lang="{ancestor::body/@xml:lang}">
                                         <xsl:text>(</xsl:text>
                                         <xsl:value-of select="current-grouping-key()"/>
                                         <xsl:text>) </xsl:text>
@@ -56,20 +59,6 @@
                                     </div>
                                 </xsl:for-each>
                             </xsl:for-each-group>
-                            <!-- <section>
-                                <xsl:apply-templates
-                                    select="current-group()[not(descendant::metadata/translator)]"/>
-                            </section>
-                            <section>
-                                <xsl:apply-templates
-                                    select="current-group()[ends-with(descendant::metadata/translator, 'Pickthall')]"
-                                />
-                            </section>
-                            <section>
-                                <xsl:apply-templates
-                                    select="current-group()[ends-with(descendant::metadata/translator, 'Ali')]"
-                                />
-                            </section> -->
                         </main>
                         <!-- use schematron to make sure matadata is correct for each, using grid to line up surahs -->
                     </body>

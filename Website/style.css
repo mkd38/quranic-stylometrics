@@ -96,6 +96,14 @@ p {
 span {
     font-weight: bold;
 }
+
+.ex {
+  font-style: italic;
+}
+
+.translit {
+  font-style: italic;
+}
 .image-container {
     display: block;
     margin: 0 auto;
