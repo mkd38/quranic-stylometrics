@@ -125,7 +125,17 @@ img {
     max-width: 100%;
     height: auto;
 }
+.author.ali:hover {
+  background-image: url(https://en.wikipedia.org/wiki/File:Abdullah_Yusuf_Ali_1911.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
+.author.pickthall:hover {
+  background-image: url(https://en.wikipedia.org/wiki/File:Marmaduke_Pickthall_Portrait.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 
 
