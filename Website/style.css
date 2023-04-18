@@ -46,8 +46,10 @@ body {
 
 .boxed {
     background-color: #DDC9B4;
-    border: 1px;
+    border: 1px solid white;
     border-style: ridge;
+    padding: 50px;
+    margin: 20px;
 }
 
 #index .index,
@@ -146,5 +148,4 @@ img {
     width: 200px;
     height: 200px;
 }
-
 
