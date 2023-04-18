@@ -135,13 +135,15 @@ display: block;
 }
 
 .author img {
-display: none;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-max-width: 100%;
-height: auto;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  height: 200px;
 }
 
 
