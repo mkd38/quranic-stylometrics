@@ -1,6 +1,7 @@
 body {
-    background-color: #C17C74
-    ;
+    background-color: #C17C74;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +24,7 @@ body {
     background-color: #333;
     color: #fff;
     padding: 1rem;
+    z-index: 1;
 }
 
 .navbar-links {
@@ -61,6 +63,37 @@ body {
     background-color: #C17C74
 }
 
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+ 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 0;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+}
 
 h1 {
     font-family: "Lucida Bright", serif;
@@ -118,10 +151,17 @@ span {
     font-style: italic;
 }
 .image-container {
-    display: block;
-    margin: 0 auto;
-    max-width: 900px;
+    position: relative;
 }
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
 
 img {
     display: block;
