@@ -12,3 +12,67 @@ main {
 div:lang(ar) {
     direction: rtl;
 }
+
+.amplification.highlighted {
+  background-color: yellow;
+}
+
+.emph.highlighted {
+  background-color: lightblue;
+}
+
+.irony.highlighted {
+  background-color: lightgreen;
+}
+
+.imagery.highlighted {
+  background-color: lightsalmon;
+}
+
+.allusion.highlighted {
+  background-color: pink;
+}
+
+.contrast.highlighted {
+  background-color: lavender;
+}
+
+.name.highlighted {
+  background-color: gray;
+}
+
+.place.highlighted {
+  background-color: brown;
+}
+
+.rhetoricalQuestion.highlighted {
+  background-color: #FF9797;
+}
+
+.motif.highlighted {
+  background-color: aqua;
+}
+
+.anaphora.highlighted {
+  background-color: lime;
+}
+
+.parallelism.highlighted {
+  background-color: teal;
+}
+
+.metaphor.highlighted {
+  background-color: fuchsia;
+}
+
+.simile.highlighted {
+  background-color: silver;
+}
+.contrast.highlighted {
+  background-color:maroon;
+}
+
+
+
+
+

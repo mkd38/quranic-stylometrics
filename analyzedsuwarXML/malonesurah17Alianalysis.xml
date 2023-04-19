@@ -7,7 +7,7 @@
         <translator>Abdullah Yusuf Ali</translator>
         <source>http://www.perseus.tufts.edu/hopper/</source>
     </metadata>
-    <body>
+    <body xml:lang="en">
         <ayah n="1">
             <emph>Glory to (Allah)</emph> Who did take His servant for a Journey by night from the
             Sacred Mosque to the farthest Mosque, whose precincts We did bless,- in order that We

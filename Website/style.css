@@ -1,5 +1,8 @@
 body {
     background-color: #C17C74
+    ;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -7,7 +10,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding-top: 60px;
 }
 .navbar {
@@ -44,43 +46,54 @@ body {
 
 .boxed {
     background-color: #DDC9B4;
-    border: 1px ;
-    border-style: ridge ; 
-    
-    
-    
+    border: 1px solid white;
+    border-style: ridge;
+    padding: 50px;
+    margin: 20px;
+}
+
+#index .index,
+#about .about,
+#methods .methods,
+#texts .texts,
+#analysis .analysis,
+#conclusions .conclusions {
+    background-color: #C17C74
 }
 
 
-h1{font-family: "Lucida Bright", serif;
-   font-size: 50px;
-   color: #2A3D45;
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   margin-right: 15px;
-   margin-left: 15px;
+h1 {
+    font-family: "Lucida Bright", serif;
+    font-size: 50px;
+    color: #2A3D45;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-h2{font-family: "Lucida Bright", serif;
-   font-size: 30px;
-   color: #2A3D45;
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   margin-right: 15px;
-   margin-left: 15px;
+h2 {
+    font-family: "Lucida Bright", serif;
+    font-size: 30px;
+    color: #2A3D45;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-h3{font-family: "Lucida Bright", serif;
-   font-size: 20px;
-   color: #2A3D45;
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   margin-right: 15px;
-   margin-left: 15px;
-   }
+h3 {
+    font-family: "Lucida Bright", serif;
+    font-size: 20px;
+    color: #2A3D45;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 p {
     font-family: "Lucida Bright", serif;
@@ -98,11 +111,11 @@ span {
 }
 
 .ex {
-  font-style: italic;
+    font-style: italic;
 }
 
 .translit {
-  font-style: italic;
+    font-style: italic;
 }
 .image-container {
     display: block;
@@ -116,7 +129,23 @@ img {
     height: auto;
 }
 
+.author.ali:hover img {
+    display: block;
+}
 
+.author.pickthall:hover img {
+    display: block;
+}
 
-
+.author img {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    height: 200px;
+}
 
