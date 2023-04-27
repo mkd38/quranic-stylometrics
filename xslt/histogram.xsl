@@ -7,11 +7,13 @@
     <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
 
     <xsl:variable name="surahs" as="document-node()+"
-        select="collection('../analyzedsuwarXML?select=*.xml')"/>
+        select="collection('../analyzedsuwarXML?select=*.xml')"/> <!--collect surahs -->
+ 
     <xsl:variable name="surahVersionIdentifiers" as="xs:string+"
-        select="$surahs ! concat(descendant::body/@xml:lang, descendant::translator) => distinct-values()"/>
+        select="$surahs ! concat(descendant::body/@xml:lang, descendant::translator) => distinct-values()"/> <!--create unique ID for each surah -->
+    
     <xsl:variable name="distinctDevices" as="xs:string+"
-        select="$surahs//ayah/descendant::* ! name() => distinct-values()"/>
+        select="$surahs//ayah/descendant::* ! name() => distinct-values()"/> <!-- collect list of distinct devices -->
 
     <xsl:variable name="barWidth" select="20" as="xs:integer"/>
     <xsl:variable name="interbarSpacing" select="$barWidth" as="xs:double"/>
@@ -21,7 +23,7 @@
         select="count($distinctDevices) * count($surahVersionIdentifiers) * $barInterval + $interbarSpacing"/>
     <xsl:variable name="maxHeight" select="300" as="xs:integer"/>
     <xsl:variable name="yScale" as="xs:integer" select="3"/>
-    <xsl:variable name="colors" as="xs:string+" select="'purple', 'red', 'blue'"/>
+    <xsl:variable name="colors" as="xs:string+" select="'#03AC13', '#5DBB63', '#466D1D'"/>
 
 
     <!-- stylesheet variables -->
@@ -34,17 +36,17 @@
                     if we use for each group we cannot reserve space for things no there, we want zero height bar,  division of devices
             michael kay, pg 334, look what he says, grouping key and concating, to do: clean up graph, shorten x, remove percent, make emph and questions full words
             excl-->
-            <xsl:for-each select="$distinctDevices[not(. = ('name' , 'place'))]">
+            <xsl:for-each select="$distinctDevices[not(. = ('name' , 'place'))]"> <!-- exclude name and place from visualization -->
                 <xsl:sort/>
                 <xsl:variable name="currentDevice" as="xs:string" select="."/>
                 <xsl:variable name="xPos" as="xs:double"
                     select="(count($surahVersionIdentifiers) * $barWidth + $interbarSpacing) * (position() - 1)"/>
                 <text x="{$xPos + (count($surahVersionIdentifiers) * $barWidth div 2)}" y="13"
-                    text-anchor="middle" font-size="smaller">
+                    text-anchor="middle" font-size="smaller" >
                     <xsl:value-of select="$currentDevice"/>
                 </text>
-                <xsl:for-each-group select="$surahs"
-                    group-by="concat(descendant::body/@xml:lang, descendant::translator)">
+                <xsl:for-each-group select="$surahs" 
+                    group-by="concat(descendant::body/@xml:lang, descendant::translator)"> <!-- divide 9 total surahs into 3 text groups using lang attribute and translator -->
                     <xsl:sort select="current-grouping-key()"/>
                     <xsl:variable name="barOffset" as="xs:integer" select="position()"/>
                     <xsl:variable name="barXPos" as="xs:double"
@@ -57,6 +59,7 @@
                         fill="{$colors[$barOffset]}"/>
                 </xsl:for-each-group>
             </xsl:for-each>
+            
             <line x1="0" x2="{$xAxisLength}" y1="-{$maxHeight div 2}" y2="-{$maxHeight div 2}"
                 stroke="lightgray" stroke-dasharray="8 4" stroke-width="1"/>
 
@@ -90,42 +93,5 @@
 
     </xsl:template>
 
-    <xsl:template match="$surahs">
-        <!-- must be sorted by text -->
-        <xsl:for-each select="$surahs">
-            <xsl:variable name="surahPos" select="position() - 1" as="xs:integer"/>
-            <xsl:variable name="xPosition" select="$surahPos * $barInterval + $interbarSpacing"
-                as="xs:double"/>
-            <xsl:variable name="midBarPostion" as="xs:double" select="$xPosition + $barWidth div 2"/>
-
-            <xsl:variable name="totalAmp" select="count(amplification)" as="xs:double"/>
-            <xsl:variable name="totalEmph" select="count(emph)" as="xs:double"/>
-            <xsl:variable name="totalComparison" select="count(comparison)" as="xs:double"/>
-            <xsl:variable name="totalImagery" select="count(imagery)" as="xs:double"/>
-            <xsl:variable name="totalRepetition" select="count(repetition)" as="xs:double"/>
-            <xsl:variable name="totalAllusion" select="count(allusion)" as="xs:double"/>
-            <xsl:variable name="totalIrony" select="count(irony)" as="xs:double"/>
-            <xsl:variable name="totalRetoricalQ" select="count(rhetoricalQuestion)" as="xs:double"/>
-
-            <xsl:variable name="barHeight_Amp" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_Emph" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_Comparison" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_Imagery" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_Repetition" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_Allusion" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_Irony" select="$totalAmp * $maxHeight" as="xs:double"/>
-            <xsl:variable name="barHeight_RetoricalQ" select="$totalRetoricalQ * $maxHeight"
-                as="xs:double"/>
-
-            <xsl:variable name="device" select="." as="xs:string"/>
-
-            <rect x="{$xPosition}" y="-{$barHeight_Amp}" stroke="black" stroke-width=".5"
-                fill="blue" width="{$barWidth}" height="{$barHeight_Amp}"/>
-            <text x="{$midBarPostion}" y="20" text-anchor="middle" fill="black" font-size="small">
-                <xsl:value-of select="$device"/>
-            </text>
-
-        </xsl:for-each>
-    </xsl:template>
 
 </xsl:stylesheet>
