@@ -18,6 +18,7 @@
     <xsl:variable name="barWidth" select="20" as="xs:integer"/>
     <xsl:variable name="interbarSpacing" select="$barWidth" as="xs:double"/>
     <xsl:variable name="barInterval"
+        
         select="$barWidth * count($surahVersionIdentifiers) + $interbarSpacing" as="xs:double"/>
     <xsl:variable name="xAxisLength" as="xs:double"
         select="3 * count($surahVersionIdentifiers) * $barInterval + $interbarSpacing"/>
@@ -83,6 +84,20 @@
                 font-size="x-large">Count of Device</text>
             <text x="{$xAxisLength div 2}" y="90" text-anchor="middle" font-size="xx-large"
                 >Instances of Rhetorical Devices by Text</text>                                             <!-- axes and labels  -->
+            
+            
+            
+            <circle cx="{$xAxisLength - 80}" cy="-{$maxHeight * (2 div 3)}" r="10" fill="#03AC13"/>
+            <text x="{$xAxisLength - 70}" y="-{$maxHeight * (2 div 3)-5}" font-size="12"
+                dominant-baseline="middle">Original</text>
+            <circle cx="{$xAxisLength - 80}" cy="-{$maxHeight * (2 div 3) - 20}" r="10" fill="#5DBB63"/>
+            <text x="{$xAxisLength - 70}" y="-{$maxHeight * (2 div 3) - 25}" font-size="12"
+                dominant-baseline="middle">Ali translation</text>
+            <circle cx="{$xAxisLength -80}" cy="-{$maxHeight * (2 div 3)-40}" r="10" fill="#466D1D"/>
+            <text x="{$xAxisLength - 70}" y="-{$maxHeight * (2 div 3)-43}" font-size="12"
+                dominant-baseline="middle">Pickthall translation</text>
+            
+            
         </svg>
 
     </xsl:template>
