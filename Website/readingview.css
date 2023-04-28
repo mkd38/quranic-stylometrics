@@ -1,3 +1,4 @@
+
 .checkbox-container {
     position: sticky;
     top: 0;
@@ -9,86 +10,71 @@ div:lang(ar) {
 }
 
 .amplification.highlighted {
-  background-color: yellow;
+    background-color: yellow;
 }
 
 .emph.highlighted {
-  background-color: lightblue;
+    background-color: lightblue;
 }
 
 .irony.highlighted {
-  background-color: lightgreen;
+    background-color: lightgreen;
 }
 
 .imagery.highlighted {
-  background-color: lightsalmon;
+    background-color: lightsalmon;
 }
 
 .allusion.highlighted {
-  background-color: pink;
+    background-color: pink;
 }
 
 .contrast.highlighted {
-  background-color: lavender;
+    background-color: lavender;
 }
 
 .name.highlighted {
-  background-color: gray;
+    background-color: gray;
 }
 
 .place.highlighted {
-  background-color: brown;
+    background-color: brown;
 }
 
 .rhetoricalQuestion.highlighted {
-  background-color: #FF9797;
+    background-color: #FF9797;
 }
 
 .motif.highlighted {
-  background-color: aqua;
+    background-color: aqua;
 }
 
 .anaphora.highlighted {
-  background-color: lime;
+    background-color: lime;
 }
 
 .parallelism.highlighted {
-  background-color: teal;
+    background-color: teal;
 }
 
 .metaphor.highlighted {
-  background-color: fuchsia;
+    background-color: fuchsia;
 }
 
 .simile.highlighted {
-  background-color: silver;
+    background-color: silver;
 }
 .contrast.highlighted {
-  background-color:maroon;
+    background-color: maroon;
 }
-.grid-4-column {
+
+main {
   display: flex;
 }
 
-.grid-4-column > div {
-  flex: 1;
-  margin: 5px;
-  padding: 5px;
-  box-sizing: border-box;
+#div1, #div2, #div3 {
   background-color: #DDC9B4;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
 }
-.grid-4-column h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.grid-4-column p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-}
-
-
-
-
-
