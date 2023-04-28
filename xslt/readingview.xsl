@@ -52,6 +52,7 @@
                 portrayed on the site. work with CSS a bit and make sure you have these highlighted according to
                 what color they are in  the text. Also, think about trying to get the checkbox to "stick" as one scrolls 
                 so they dont have to keep scrollin  g back up. ALSO create label that says "Rhetorical Devices"-->
+                        
                         <section>
                             <h2>Arabic</h2>
                             <h2>Ali</h2>
