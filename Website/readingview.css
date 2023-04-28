@@ -4,7 +4,7 @@ section {
     grid-gap: 1rem;
     background-color: #DDC9B4;
     margin: 10px;
-    padding: 10px
+    padding: 10px;
 }
 main {
     display: grid;
@@ -16,6 +16,8 @@ main {
 }
 
 .checkbox-container {
+    display: grid;
+    grid-template-columns: repeat(14, auto);
     position: sticky;
     top: 0;
     z-index: 1;
