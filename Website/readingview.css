@@ -1,3 +1,19 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 2rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+}
 
 .checkbox-container {
     position: sticky;
@@ -66,15 +82,4 @@ div:lang(ar) {
 }
 .contrast.highlighted {
     background-color: maroon;
-}
-
-main {
-  display: flex;
-}
-
-#div1, #div2, #div3 {
-  background-color: #DDC9B4;
-  width: 33.33%;
-  padding: 10px;
-  box-sizing: border-box;
 }
