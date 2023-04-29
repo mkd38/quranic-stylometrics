@@ -13,9 +13,9 @@
                 indent="yes">
                 <html>
                     <head>
-                        <link rel="stylesheet" type="text/css" href="../Website/style.css"/>
-                        <link rel="stylesheet" type="text/css" href="../Website/readingview.css"/>
-                        <script type="application/javascript" src="../Website/readingview.js"/>
+                        <link rel="stylesheet" type="text/css" href="style.css"/>
+                        <link rel="stylesheet" type="text/css" href="readingview.css"/>
+                        <script type="application/javascript" src="readingview.js"/>
                         <!--you cannot have CSS style in HTML, must be in CSS stylesheet -->
                         <title>
                             <xsl:text>Surah</xsl:text>
@@ -52,7 +52,6 @@
                 portrayed on the site. work with CSS a bit and make sure you have these highlighted according to
                 what color they are in  the text. Also, think about trying to get the checkbox to "stick" as one scrolls 
                 so they dont have to keep scrollin  g back up. ALSO create label that says "Rhetorical Devices"-->
-                        
                         <section>
                             <h2>Arabic</h2>
                             <h2>Ali</h2>

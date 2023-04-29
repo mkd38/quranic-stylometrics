@@ -123,4 +123,19 @@
          writing-mode="tb"
          font-size="x-large">Count of Device</text>
    <text x="370" y="90" text-anchor="middle" font-size="xx-large">Instances of Rhetorical Devices by Text</text>
+   <circle cx="660" cy="-200.0000000000000001" r="10" fill="#03AC13"/>
+   <text x="670"
+         y="-195.0000000000000001"
+         font-size="12"
+         dominant-baseline="middle">Original</text>
+   <circle cx="660" cy="-180.0000000000000001" r="10" fill="#5DBB63"/>
+   <text x="670"
+         y="-175.0000000000000001"
+         font-size="12"
+         dominant-baseline="middle">Ali translation</text>
+   <circle cx="660" cy="-160.0000000000000001" r="10" fill="#466D1D"/>
+   <text x="670"
+         y="-157.0000000000000001"
+         font-size="12"
+         dominant-baseline="middle">Pickthall translation</text>
 </svg>
