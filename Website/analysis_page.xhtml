@@ -9,7 +9,16 @@
         
         <!--#include virtual="menu.xhtml" -->
         
-        <svg xmlns="http://www.w3.org/2000/svg"
+        <div class="boxed">
+            <h3>Analysis</h3>
+            <p>The below bar chart presents raw count of rhetorical device across our three texts. Overall, we found that there was less variation in use of rhetorical devices across translations than we expected at the outset. 
+                However, there are a few notable differences. Most strikingly, one can observe that both Ali and Pickthall texts heavily rely on emphatic devices to compensate for the fact that Arabic makes frequent use of special particals
+                that indicate force or certainty. Additionally, Arabic makes use of an extensive case system which permits highly flexible word order. This flexibility offers another way of signalling emphasis: because the grammatical
+                object is marked, it may be preposed to the beginning of the sentence for emphasis without losing meaning. Another interesting difference is the use of rhetorical questions. The original Qur'anic text is punctuated according to 
+                rhythm and flow of the language because it was originally engaged with as a recited text. Thus, the punctuation is concerned with breath control, intonantion, and devotional movements rahter than structure. This allows for some abiguity 
+                in the interpretation of rhetorical questions. Finally, Ali's interpretation was the only text that made explicit use of dramatic irony.</p>
+        </div>
+        <div class="boxed"><svg xmlns="http://www.w3.org/2000/svg"
             height="450"
             width="840"
             viewBox="-75 -325 840 450">
@@ -134,8 +143,22 @@
                 writing-mode="tb"
                 font-size="x-large">Count of Device</text>
             <text x="370" y="90" text-anchor="middle" font-size="xx-large">Instances of Rhetorical Devices by Text</text>
-        </svg>
-        
-            
+            <circle cx="660" cy="-200.0000000000000001" r="10" fill="#03AC13"/>
+            <text x="670"
+                y="-195.0000000000000001"
+                font-size="12"
+                dominant-baseline="middle">Original</text>
+            <circle cx="660" cy="-180.0000000000000001" r="10" fill="#5DBB63"/>
+            <text x="670"
+                y="-175.0000000000000001"
+                font-size="12"
+                dominant-baseline="middle">Ali translation</text>
+            <circle cx="660" cy="-160.0000000000000001" r="10" fill="#466D1D"/>
+            <text x="670"
+                y="-157.0000000000000001"
+                font-size="12"
+                dominant-baseline="middle">Pickthall translation</text>
+        </svg></div>
+
     </body>
 </html>
