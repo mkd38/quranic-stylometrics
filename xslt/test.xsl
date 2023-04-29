@@ -43,6 +43,14 @@
       <xsl:result-document method="xml" indent="yes" omit-xml-declaration="yes"
         xmlns="http://www.w3.org/2000/svg" href="radar_{current-grouping-key()}.svg">
         <svg>
+          <!-- ========================================================== -->
+          <!-- TODO: Create axes, labels, etc. for graph                  -->
+          <!-- ========================================================== -->
+          <!-- Add stuff here                                             -->
+          
+          <!-- ========================================================== -->
+          <!-- Plot one polyline per version                              -->
+          <!-- ========================================================== -->
           <xsl:for-each-group select="current-group()"
             group-by="concat(descendant::body/@xml:lang, descendant::translator)">
             <!-- ======================================================== -->
