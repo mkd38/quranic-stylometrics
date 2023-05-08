@@ -16,7 +16,6 @@
                         <link rel="stylesheet" type="text/css" href="style.css"/>
                         <link rel="stylesheet" type="text/css" href="readingview.css"/>
                         <script type="application/javascript" src="readingview.js"/>
-                        <!--you cannot have CSS style in HTML, must be in CSS stylesheet -->
                         <title>
                             <xsl:text>Surah</xsl:text>
                             <xsl:value-of select="current-grouping-key()"/>
@@ -48,16 +47,15 @@
                                 />Metaphor</label>
                             <label class="simile"><input type="checkbox" id="simile"/>Simile</label>
                         </div>
-                        <!-- ^^^ this is solid. I would suggest you experiment with how you want this checkbox to be
-                portrayed on the site. work with CSS a bit and make sure you have these highlighted according to
-                what color they are in  the text. Also, think about trying to get the checkbox to "stick" as one scrolls 
-                so they dont have to keep scrollin  g back up. ALSO create label that says "Rhetorical Devices"-->
+                        <!-- headers for each version -->
                         <section>
                             <h2>Arabic</h2>
                             <h2>Ali</h2>
                             <h2>Pickthall</h2>
                         </section>
+                        <!-- three of the translations side by side: Arabic, Pickthall, Ali -->
                         <main>
+                            <!-- group ayahs by ayah number -->
                             <xsl:for-each-group select="current-group()//ayah" group-by="@n">
                                 <xsl:sort select="current-grouping-key()" data-type="number"/>
                                 <xsl:text>(</xsl:text>
@@ -78,15 +76,7 @@
             </xsl:result-document>
         </xsl:for-each-group>
     </xsl:template>
-    <!-- ^^ we should use grid for this instead of table -->
-    <xsl:template match="ayah" mode="guide">
-        <xsl:apply-templates select="//*/name() => distinct-values()"/>
-        <xsl:text> ,</xsl:text>
-        <xsl:if test="//*/name() eq repetition or comparison">
-            <xsl:value-of select="@device"/>
-            <xsl:text> ,</xsl:text>
-        </xsl:if>
-    </xsl:template>
+    <!-- adding span to rhetorical devices for background color -->
     <xsl:template match="amplification">
         <span class="amplification">
             <xsl:apply-templates/>
